@@ -141,10 +141,6 @@ def execute_and_evaluate(str_query: str, sql_query: dict, conn: sqlite3.Connecti
         retrieved_data = pd.read_sql_query(sql_query['sql'], conn).to_json(orient='records')
         print(f"Result: {retrieved_data}")
 
-        # If data is empty, it could be a semantic issue.
-        if retrieved_data in ('[]', '{}', 'null'):
-             raise ValueError("The query returned no data. This might be incorrect. Please check the query logic, especially JOIN conditions and WHERE clauses.")
-
         parser = PydanticOutputParser(pydantic_object=SemanticCheck)
         prompt_vars = {
             'instructions': parser.get_format_instructions(),
