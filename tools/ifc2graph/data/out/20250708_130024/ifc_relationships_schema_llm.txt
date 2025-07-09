@@ -1,0 +1,104 @@
+Type: HASPROPERTIES
+  - (:IfcPropertySet)-[:HASPROPERTIES]->(:IfcPropertySingleValue)
+  - (:IfcPropertySingleValue)-[:HASPROPERTIES]->(:IfcPropertySet)
+
+Type: RELATINGPROPERTYDEFINITION
+  - (:IfcElementQuantity)-[:RELATINGPROPERTYDEFINITION]->(:IfcRelDefinesByProperties)
+  - (:IfcPropertySet)-[:RELATINGPROPERTYDEFINITION]->(:IfcRelDefinesByProperties)
+  - (:IfcRelDefinesByProperties)-[:RELATINGPROPERTYDEFINITION]->(:IfcPropertySet)
+
+Type: RELATEDOBJECTS
+  - (:IfcBuildingStorey)-[:RELATEDOBJECTS]->(:IfcRelAggregates)
+  - (:IfcBuildingStorey)-[:RELATEDOBJECTS]->(:IfcRelDefinesByProperties)
+  - (:IfcCovering)-[:RELATEDOBJECTS]->(:IfcRelDefinesByProperties)
+  - (:IfcDoor)-[:RELATEDOBJECTS]->(:IfcRelDefinesByProperties)
+  - (:IfcDoor)-[:RELATEDOBJECTS]->(:IfcRelDefinesByType)
+  - (:IfcOpeningElement)-[:RELATEDOBJECTS]->(:IfcRelDefinesByProperties)
+  - (:IfcRelAggregates)-[:RELATEDOBJECTS]->(:IfcSpace)
+  - (:IfcRelDefinesByProperties)-[:RELATEDOBJECTS]->(:IfcBuildingStorey)
+  - (:IfcRelDefinesByProperties)-[:RELATEDOBJECTS]->(:IfcCovering)
+  - (:IfcRelDefinesByProperties)-[:RELATEDOBJECTS]->(:IfcDoor)
+  - (:IfcRelDefinesByProperties)-[:RELATEDOBJECTS]->(:IfcOpeningElement)
+  - (:IfcRelDefinesByProperties)-[:RELATEDOBJECTS]->(:IfcWindow)
+  - (:IfcRelDefinesByType)-[:RELATEDOBJECTS]->(:IfcDoor)
+  - (:IfcRelDefinesByType)-[:RELATEDOBJECTS]->(:IfcWall)
+  - (:IfcRelDefinesByType)-[:RELATEDOBJECTS]->(:IfcWallStandardCase)
+  - (:IfcRelDefinesByType)-[:RELATEDOBJECTS]->(:IfcWindow)
+  - (:IfcSpace)-[:RELATEDOBJECTS]->(:IfcRelAggregates)
+  - (:IfcSpace)-[:RELATEDOBJECTS]->(:IfcRelDefinesByProperties)
+  - (:IfcWall)-[:RELATEDOBJECTS]->(:IfcRelDefinesByProperties)
+  - (:IfcWallStandardCase)-[:RELATEDOBJECTS]->(:IfcRelDefinesByProperties)
+  - (:IfcWindow)-[:RELATEDOBJECTS]->(:IfcRelDefinesByProperties)
+  - (:IfcWindow)-[:RELATEDOBJECTS]->(:IfcRelDefinesByType)
+
+Type: OBJECTPLACEMENT
+  - (:IfcBuildingStorey)-[:OBJECTPLACEMENT]->(:IfcLocalPlacement)
+  - (:IfcCovering)-[:OBJECTPLACEMENT]->(:IfcLocalPlacement)
+  - (:IfcDoor)-[:OBJECTPLACEMENT]->(:IfcLocalPlacement)
+  - (:IfcLocalPlacement)-[:OBJECTPLACEMENT]->(:IfcBuildingStorey)
+  - (:IfcLocalPlacement)-[:OBJECTPLACEMENT]->(:IfcDoor)
+  - (:IfcLocalPlacement)-[:OBJECTPLACEMENT]->(:IfcOpeningElement)
+  - (:IfcLocalPlacement)-[:OBJECTPLACEMENT]->(:IfcSpace)
+  - (:IfcLocalPlacement)-[:OBJECTPLACEMENT]->(:IfcWall)
+  - (:IfcLocalPlacement)-[:OBJECTPLACEMENT]->(:IfcWallStandardCase)
+  - (:IfcLocalPlacement)-[:OBJECTPLACEMENT]->(:IfcWindow)
+  - (:IfcSpace)-[:OBJECTPLACEMENT]->(:IfcLocalPlacement)
+  - (:IfcWall)-[:OBJECTPLACEMENT]->(:IfcLocalPlacement)
+  - (:IfcWallStandardCase)-[:OBJECTPLACEMENT]->(:IfcLocalPlacement)
+  - (:IfcWindow)-[:OBJECTPLACEMENT]->(:IfcLocalPlacement)
+
+Type: REPRESENTATION
+  - (:IfcCovering)-[:REPRESENTATION]->(:IfcProductDefinitionShape)
+  - (:IfcDoor)-[:REPRESENTATION]->(:IfcProductDefinitionShape)
+  - (:IfcOpeningElement)-[:REPRESENTATION]->(:IfcProductDefinitionShape)
+  - (:IfcProductDefinitionShape)-[:REPRESENTATION]->(:IfcOpeningElement)
+  - (:IfcSpace)-[:REPRESENTATION]->(:IfcProductDefinitionShape)
+  - (:IfcWall)-[:REPRESENTATION]->(:IfcProductDefinitionShape)
+  - (:IfcWallStandardCase)-[:REPRESENTATION]->(:IfcProductDefinitionShape)
+  - (:IfcWindow)-[:REPRESENTATION]->(:IfcProductDefinitionShape)
+
+Type: RELATEDELEMENTS
+  - (:IfcCovering)-[:RELATEDELEMENTS]->(:IfcRelContainedInSpatialStructure)
+  - (:IfcDoor)-[:RELATEDELEMENTS]->(:IfcRelContainedInSpatialStructure)
+  - (:IfcWall)-[:RELATEDELEMENTS]->(:IfcRelContainedInSpatialStructure)
+  - (:IfcWallStandardCase)-[:RELATEDELEMENTS]->(:IfcRelContainedInSpatialStructure)
+  - (:IfcWindow)-[:RELATEDELEMENTS]->(:IfcRelContainedInSpatialStructure)
+
+Type: PLACEMENTRELTO
+  - (:IfcLocalPlacement)-[:PLACEMENTRELTO]->(:IfcLocalPlacement)
+
+Type: RELATIVEPLACEMENT
+  - (:IfcAxis2Placement3D)-[:RELATIVEPLACEMENT]->(:IfcLocalPlacement)
+  - (:IfcLocalPlacement)-[:RELATIVEPLACEMENT]->(:IfcAxis2Placement3D)
+
+Type: LOCATION
+  - (:IfcAxis2Placement3D)-[:LOCATION]->(:IfcCartesianPoint)
+  - (:IfcCartesianPoint)-[:LOCATION]->(:IfcAxis2Placement3D)
+
+Type: AXIS
+  - (:IfcAxis2Placement3D)-[:AXIS]->(:IfcDirection)
+  - (:IfcDirection)-[:AXIS]->(:IfcAxis2Placement3D)
+
+Type: REFDIRECTION
+  - (:IfcAxis2Placement3D)-[:REFDIRECTION]->(:IfcDirection)
+  - (:IfcDirection)-[:REFDIRECTION]->(:IfcAxis2Placement3D)
+
+Type: REPRESENTATIONS
+  - (:IfcProductDefinitionShape)-[:REPRESENTATIONS]->(:IfcShapeRepresentation)
+  - (:IfcShapeRepresentation)-[:REPRESENTATIONS]->(:IfcProductDefinitionShape)
+
+Type: QUANTITIES
+  - (:IfcElementQuantity)-[:QUANTITIES]->(:IfcQuantityLength)
+  - (:IfcQuantityArea)-[:QUANTITIES]->(:IfcElementQuantity)
+  - (:IfcQuantityLength)-[:QUANTITIES]->(:IfcElementQuantity)
+  - (:IfcQuantityVolume)-[:QUANTITIES]->(:IfcElementQuantity)
+
+Type: RELATINGCLASSIFICATION
+  - (:IfcClassificationReference)-[:RELATINGCLASSIFICATION]->(:IfcRelAssociatesClassification)
+
+Type: RELATINGSTRUCTURE
+  - (:IfcBuildingStorey)-[:RELATINGSTRUCTURE]->(:IfcRelContainedInSpatialStructure)
+  - (:IfcRelContainedInSpatialStructure)-[:RELATINGSTRUCTURE]->(:IfcSpace)
+
+Type: RELATINGOBJECT
+  - (:IfcBuildingStorey)-[:RELATINGOBJECT]->(:IfcRelAggregates)

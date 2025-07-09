@@ -1,0 +1,418 @@
+Each node type includes properties hierarchy divided by '.' and sampled examples of each property values.
+
+The graph is parsed from Revit using ifcopenshell.
+
+Node Type: IfcCartesianPoint
+Properties:
+	.Coordinates: (821.260687590912, 275.0, 1067.47724620026)
+
+Node Type: IfcPropertySet
+Properties:
+	.Name: Pset_WallCommon
+
+Node Type: IfcPropertySingleValue
+Properties:
+	.Name: Type Mark
+
+Node Type: IfcDoor
+Properties:
+	.Name: Doors_ExtDbl_Flush:1810x2110mm:285860
+	.ObjectType: 1810x2110mm
+	.Tag: 285860
+	.OverallHeight: 2110.0
+	.OverallWidth: 810.0
+	.PredefinedType: DOOR
+	.OperationType: DOUBLE_DOOR_SINGLE_SWING
+	.Pset_DoorCommon
+		.IsExternal: False
+		.Reference: 1810x2110mm
+		.ThermalTransmittance: 3.7
+		.id: 32632
+	.Pset_ManufacturerTypeInformation
+		.Manufacturer: Revit
+		.id: 32636
+	.BaseQuantities
+		.Height: 2110.0
+		.Width: 810.0
+		.Area: 4.95
+		.id: 11009
+	.Constraints
+		.Level: Level: Ground Floor
+		.Sill_Height: 0.0
+		.id: 11063
+	.Dimensions
+		.Area: 2.27
+		.Volume: 0.19
+		.id: 32663
+	.Identity_Data
+		.Mark: 2
+		.id: 32670
+	.Other
+		.Category: Doors
+		.Family: Doors_ExtDbl_Flush: 1810x2110mm
+		.Family_and_Type: Doors_IntSgl: 810x2110mm
+		.Head_Height: 2110.0
+		.Host_Id: Basic Wall: Wall-Partn_12P-70MStd-12P
+		.Type: Doors_IntSgl: 810x2110mm
+		.Type_Id: Doors_IntSgl: 810x2110mm
+		.id: 11083
+	.Phasing
+		.Phase_Created: New Construction
+		.id: 21930
+
+Node Type: IfcDirection
+Properties:
+	.DirectionRatios: (0.798635510047293, 0.601815023152048, 0.0)
+
+Node Type: IfcShapeRepresentation
+Properties:
+	.RepresentationIdentifier: Axis
+	.RepresentationType: Curve2D
+
+Node Type: IfcQuantityLength
+Properties:
+	.Name: Height
+	.LengthValue: 290.0
+	.Description: length measured in geometry
+
+Node Type: IfcQuantityArea
+Properties:
+	.Name: GrossSideArea
+	.Description: area measured in geometry
+	.AreaValue: 76.47
+
+Node Type: IfcElementQuantity
+Properties:
+	.Name: BaseQuantities
+
+Node Type: IfcWindow
+Properties:
+	.Name: Windows_Sgl_Plain:1810x1210mm:286238
+	.ObjectType: 1810x1210mm
+	.Tag: 286238
+	.OverallHeight: 1210.0
+	.OverallWidth: 1810.0
+	.PredefinedType: WINDOW
+	.PartitioningType: NOTDEFINED
+	.Pset_WindowCommon
+		.IsExternal: True
+		.Reference: 1810x1210mm
+		.ThermalTransmittance: 5.56
+		.id: 33521
+	.Pset_ManufacturerTypeInformation
+		.Manufacturer: Revit
+		.id: 36117
+	.BaseQuantities
+		.Height: 1210.0
+		.Width: 1810.0
+		.Area: 3.53
+		.id: 33375
+	.Constraints
+		.Level: Level: Ground Floor
+		.Sill_Height: 900.0
+		.id: 33621
+	.Dimensions
+		.Area: 3.53
+		.Volume: 0.09
+		.id: 33425
+	.Identity_Data
+		.Mark: 4
+		.id: 33432
+	.Other
+		.Host_Id: Basic Wall: Wall-Ext_102Bwk-75Ins-100LBlk-12P
+		.Category: Windows
+		.Family: Windows_Sgl_Plain: 1810x1210mm
+		.Family_and_Type: Windows_Sgl_Plain: 1810x1210mm
+		.Type: Windows_Sgl_Plain: 1810x1210mm
+		.Type_Id: Windows_Sgl_Plain: 1810x1210mm
+		.Head_Height: 2110.0
+		.id: 33567
+	.Phasing
+		.Phase_Created: New Construction
+		.id: 33449
+
+Node Type: IfcClassificationReference
+Properties:
+	.Location: http://www.csiorg.net/uniformat
+	.Identification: E2020200
+	.Name: Furniture & Accessories
+
+Node Type: IfcRelAssociatesClassification
+Properties:
+	.Name: Uniformat Classification
+
+Node Type: IfcOpeningElement
+Properties:
+	.Name: Doors_IntSgl:810x2110mm:285996:1
+	.ObjectType: Opening
+	.PredefinedType: OPENING
+	.BaseQuantities
+		.Depth: 290.0
+		.Height: 1810.0
+		.Width: 1210.0
+		.id: 83641
+
+Node Type: IfcSpace
+Properties:
+	.Name: 2 - Bedroom
+	.LongName: Roof
+	.CompositionType: ELEMENT
+	.PredefinedType: SPACE
+	.Pset_SpaceCommon
+		.Reference: Entrance hall 3 - Entrance hall
+		.IsExternal: False
+		.id: 535
+	.BaseQuantities
+		.NetFloorArea: 51.99
+		.Height: 1000.0
+		.GrossPerimeter: 29925.0
+		.GrossFloorArea: 15.42
+		.GrossVolume: 38541.95
+		.id: 547
+	.Constraints
+		.Base_Offset: 0.0
+		.Level: Level: Ground Floor
+		.Limit_Offset: 0.0
+		.Upper_Limit: Level: Roof
+		.id: 360
+	.Dimensions
+		.Area: 8.69
+		.Computation_Height: 0.0
+		.Perimeter: 38935.4
+		.Unbounded_Height: 2500.0
+		.id: 463
+	.Energy_Analysis
+		.Actual_Lighting_Load: 0.0
+		.Actual_Lighting_Load_per_area: 0.0
+		.Actual_Power_Load: 0.0
+		.Actual_Power_Load_per_area: 0.0
+		.Area_per_Person: 28.57
+		.Base_Lighting_Load_on: <Default>
+		.Base_Power_Load_on: <Default>
+		.Heat_Load_Values: <Default>
+		.Latent_Heat_Gain_per_person: 630.92
+		.Lighting_Load_Units: Power Density
+		.Number_of_People: 0.0
+		.Plenum_Lighting_Contribution: 0.2
+		.Power_Load_Units: Power Density
+		.Sensible_Heat_Gain_per_person: 788.65
+		.Specified_Lighting_Load: 0.0
+		.Specified_Lighting_Load_per_area: 10.76
+		.Specified_Power_Load: 0.0
+		.Specified_Power_Load_per_area: 13.99
+		.Total_Heat_Gain_per_person: 1419.57
+		.id: 373
+	.Identity_Data
+		.Name: Living room
+		.Number: 3 - Entrance hall
+		.id: 487
+	.Other
+		.Category: Rooms
+		.Phase_Id: New Construction
+		.id: 295
+	.Phasing
+		.Phase: New Construction
+		.id: 401
+
+Node Type: IfcBuildingStorey
+Properties:
+	.Name: Roof
+	.LongName: Ground Floor
+	.CompositionType: ELEMENT
+	.Elevation: 2500.0
+	.Pset_BuildingStoreyCommon
+		.AboveGround: False
+		.id: 83016
+	.Constraints
+		.Elevation: 2500.0
+		.id: 82978
+		.Elevation_Base: Project Base Point
+	.Dimensions
+		.Computation_Height: 0.0
+		.id: 82956
+	.Identity_Data
+		.Structural: False
+		.Building_Story: True
+		.Name: Ground Floor
+		.id: 82989
+		.Type_Name: Circle Head - Project Datum
+	.Other
+		.Category: Levels
+		.Family: Level: Circle Head - Project Datum
+		.Family_and_Type: Level: Circle Head - Project Datum
+		.Type: Level: Circle Head - Project Datum
+		.Type_Id: Level: Circle Head - Project Datum
+		.id: 82992
+		.Family_Name: Level
+	.Graphics
+		.Color: 0
+		.Line_Pattern: Centre
+		.Line_Weight: 1
+		.Symbol: Anno_Level_Head_Circle: Standard
+		.Symbol_at_End_1_Default: True
+		.Symbol_at_End_2_Default: False
+		.id: 82981
+
+Node Type: IfcCovering
+Properties:
+	.Name: Compound Ceiling:Plain:286337
+	.ObjectType: Compound Ceiling:Plain
+	.Tag: 286337
+	.PredefinedType: CEILING
+	.Pset_CoveringCommon
+		.IsExternal: False
+		.Reference: Plain
+		.ThermalTransmittance: 0.55
+		.id: 33713
+	.BaseQuantities
+		.GrossCeilingArea: 8.69
+		.id: 33894
+	.Constraints
+		.Room_Bounding: True
+		.Height_Offset_From_Level: 2200.0
+		.Level: Level: Ground Floor
+		.id: 33837
+	.Dimensions
+		.Area: 51.99
+		.Perimeter: 12810.0
+		.Volume: 0.88
+		.id: 33753
+	.Other
+		.Category: Ceilings
+		.Family: Compound Ceiling: Plain
+		.Family_and_Type: Compound Ceiling: Plain
+		.Type: Compound Ceiling: Plain
+		.Type_Id: Compound Ceiling: Plain
+		.id: 33792
+		.Family_Name: Compound Ceiling
+	.Phasing
+		.Phase_Created: New Construction
+		.id: 33856
+	.Analytical_Properties
+		.Roughness: 3
+		.Absorptance: 0.7
+		.Heat_Transfer_Coefficient_(U): 0.55
+		.Thermal_mass: 11142.19
+		.Thermal_Resistance_(R): 1.82
+		.id: 33776
+	.Construction
+		.Thickness: 57.0
+		.id: 33782
+	.Graphics
+		.Coarse_Scale_Fill_Color: 0
+		.id: 33785
+	.Identity_Data
+		.Assembly_Code: 
+		.Assembly_Description: 
+		.Keynote: K40
+		.Type_Name: Plain
+		.id: 33788
+
+Node Type: IfcWall
+Properties:
+	.Name: Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:285395
+	.ObjectType: Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:45419
+	.Tag: 285395
+	.PredefinedType: NOTDEFINED
+	.Constraints
+		.Base_Offset: 0.0
+		.Base_Constraint: Level: Ground Floor
+		.Base_Extension_Distance: 0.0
+		.Base_is_Attached: False
+		.Location_Line: Wall Centerline
+		.Related_to_Mass: False
+		.Room_Bounding: True
+		.Top_Extension_Distance: 0.0
+		.Top_is_Attached: True
+		.Top_Offset: 0.0
+		.Unconnected_Height: 8000.0
+		.id: 2336
+	.Dimensions
+		.Area: 17.96
+		.Length: 9100.0
+		.Volume: 5.23
+		.id: 2343
+	.Other
+		.Category: Walls
+		.Family: Basic Wall: Wall-Ext_102Bwk-75Ins-100LBlk-12P
+		.Family_and_Type: Basic Wall: Wall-Ext_102Bwk-75Ins-100LBlk-12P
+		.Type: Basic Wall: Wall-Ext_102Bwk-75Ins-100LBlk-12P
+		.Type_Id: Basic Wall: Wall-Ext_102Bwk-75Ins-100LBlk-12P
+		.id: 2351
+	.Phasing
+		.Phase_Created: New Construction
+		.id: 1781
+	.Structural
+		.Enable_Analytical_Model: False
+		.Structural: False
+		.Structural_Usage: Non-bearing
+		.id: 1391
+	.Pset_WallCommon
+		.Reference: Wall-Ext_102Bwk-75Ins-100LBlk-12P
+		.LoadBearing: False
+		.ExtendToStructure: True
+		.IsExternal: True
+		.ThermalTransmittance: 0.24
+		.id: 1792
+
+Node Type: IfcWallStandardCase
+Properties:
+	.Name: Basic Wall:Wall-Partn_12P-70MStd-12P:285846
+	.ObjectType: Basic Wall:Wall-Partn_12P-70MStd-12P:45397
+	.Tag: 285846
+	.PredefinedType: NOTDEFINED
+	.BaseQuantities
+		.Height: 2335.0
+		.Length: 5510.0
+		.Width: 95.0
+		.GrossFootprintArea: 0.42
+		.GrossSideArea: 9.45
+		.GrossVolume: 0.99
+		.id: 4889
+	.Constraints
+		.Base_Offset: 0.0
+		.Base_Constraint: Level: Ground Floor
+		.Base_Extension_Distance: 0.0
+		.Base_is_Attached: False
+		.Location_Line: Wall Centerline
+		.Related_to_Mass: False
+		.Room_Bounding: True
+		.Top_Extension_Distance: 0.0
+		.Top_is_Attached: True
+		.Top_Offset: 0.0
+		.Top_Constraint: Level: Roof
+		.Unconnected_Height: 2500.0
+		.id: 4900
+	.Dimensions
+		.Area: 10.4
+		.Length: 5800.0
+		.Volume: 0.99
+		.id: 4906
+	.Other
+		.Category: Walls
+		.Family: Basic Wall: Wall-Partn_12P-70MStd-12P
+		.Family_and_Type: Basic Wall: Wall-Partn_12P-70MStd-12P
+		.Type: Basic Wall: Wall-Partn_12P-70MStd-12P
+		.Type_Id: Basic Wall: Wall-Partn_12P-70MStd-12P
+		.id: 4914
+	.Phasing
+		.Phase_Created: New Construction
+		.id: 4919
+	.Structural
+		.Enable_Analytical_Model: False
+		.Structural: False
+		.Structural_Usage: Non-bearing
+		.id: 4795
+	.Pset_WallCommon
+		.IsExternal: False
+		.LoadBearing: False
+		.ExtendToStructure: True
+		.Reference: Wall-Partn_12P-70MStd-12P
+		.ThermalTransmittance: 0.35
+		.id: 4831
+
+Node Type: IfcQuantityVolume
+Properties:
+	.Name: GrossVolume
+	.VolumeValue: 38541.95
+	.Description: volume measured in geometry
