@@ -1,0 +1,1393 @@
+Tables in database.sqlite:
+
+IfcApplication (has 1 records):
+  ApplicationDeveloper: INTEGER
+  Version: TEXT
+  ApplicationFullName: TEXT
+  ApplicationIdentifier: TEXT
+
+  Sample rows (3):
+    Row 1: ApplicationDeveloper=1, Version=2015, ApplicationFullName=Autodesk Revit 2015 (ENU), ApplicationIdentifier=Revit
+
+------
+
+IfcArbitraryClosedProfileDef (has 20 records):
+  ProfileType: TEXT
+  ProfileName: TEXT
+  OuterCurve: INTEGER
+
+  Sample rows (3):
+    Row 1: ProfileType=AREA, ProfileName=None, OuterCurve=156
+    Row 2: ProfileType=AREA, ProfileName=None, OuterCurve=519
+    Row 3: ProfileType=AREA, ProfileName=Glazed, OuterCurve=2411
+
+------
+
+IfcAxis2Placement2D (has 50 records):
+  Location: INTEGER
+  RefDirection: INTEGER
+
+  Sample rows (3):
+    Row 1: Location=310, RefDirection=24
+    Row 2: Location=408, RefDirection=24
+    Row 3: Location=2387, RefDirection=2389
+
+------
+
+IfcAxis2Placement3D (has 214 records):
+  Location: INTEGER
+  Axis: INTEGER
+  RefDirection: INTEGER
+
+  Sample rows (3):
+    Row 1: Location=6, Axis=None, RefDirection=None
+    Row 2: Location=6, Axis=None, RefDirection=None
+    Row 3: Location=6, Axis=None, RefDirection=None
+
+------
+
+IfcBooleanClippingResult (has 4 records):
+  Operator: TEXT
+  FirstOperand: JSON
+  SecondOperand: JSON
+
+  Sample rows (3):
+    Row 1: Operator=DIFFERENCE, FirstOperand=3260, SecondOperand=3267
+    Row 2: Operator=DIFFERENCE, FirstOperand=3320, SecondOperand=3327
+    Row 3: Operator=DIFFERENCE, FirstOperand=4672, SecondOperand=4692
+
+------
+
+IfcBuilding (has 1 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  LongName: TEXT
+  CompositionType: TEXT
+  ElevationOfRefHeight: REAL
+  ElevationOfTerrain: REAL
+  BuildingAddress: INTEGER
+
+  Sample rows (3):
+    Row 1: GlobalId=1o0c33arXF9AEePDXPKIta, OwnerHistory=42, Name=, Description=None, ObjectType=None, ObjectPlacement=33, Representation=None, LongName=, CompositionType=ELEMENT, ElevationOfRefHeight=None, ElevationOfTerrain=None, BuildingAddress=114
+
+------
+
+IfcBuildingStorey (has 2 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  LongName: TEXT
+  CompositionType: TEXT
+  Elevation: REAL
+
+  Sample rows (3):
+    Row 1: GlobalId=1o0c33arXF9AEePDYchjCY, OwnerHistory=42, Name=Ground Floor, Description=None, ObjectType=None, ObjectPlacement=129, Representation=None, LongName=Ground Floor, CompositionType=ELEMENT, Elevation=0.0
+    Row 2: GlobalId=1o0c33arXF9AEePDYchj2Z, OwnerHistory=42, Name=Roof, Description=None, ObjectType=None, ObjectPlacement=136, Representation=None, LongName=Roof, CompositionType=ELEMENT, Elevation=2500.0
+
+------
+
+IfcCartesianPoint (has 9474 records):
+  Coordinates: JSON
+
+  Sample rows (3):
+    Row 1: Coordinates=[0.0, 0.0, 0.0]
+    Row 2: Coordinates=[0.0, 0.0]
+    Row 3: Coordinates=[0.0, 0.0, 2500.0]
+
+------
+
+IfcCartesianTransformationOperator3D (has 1 records):
+  Axis1: INTEGER
+  Axis2: INTEGER
+  LocalOrigin: INTEGER
+  Scale: REAL
+  Axis3: INTEGER
+
+  Sample rows (3):
+    Row 1: Axis1=None, Axis2=None, LocalOrigin=6, Scale=1.0, Axis3=None
+
+------
+
+IfcCircle (has 15 records):
+  Position: JSON
+  Radius: REAL
+
+  Sample rows (3):
+    Row 1: Position=2391, Radius=5783.50000000007
+    Row 2: Position=2570, Radius=5783.50000000006
+    Row 3: Position=2679, Radius=5783.49999999999
+
+------
+
+IfcClassification (has 1 records):
+  Source: TEXT
+  Edition: TEXT
+  EditionDate: TEXT
+  Name: TEXT
+  Description: TEXT
+  Location: TEXT
+  ReferenceTokens: JSON
+
+  Sample rows (3):
+    Row 1: Source=http://www.csiorg.net/uniformat, Edition=1998, EditionDate=None, Name=Uniformat, Description=None, Location=None, ReferenceTokens=None
+
+------
+
+IfcClassificationReference (has 7 records):
+  Location: TEXT
+  Identification: TEXT
+  Name: TEXT
+  ReferencedSource: JSON
+  Description: TEXT
+  Sort: TEXT
+
+  Sample rows (3):
+    Row 1: Location=http://www.csiorg.net/uniformat, Identification=E2020200, Name=Furniture & Accessories, ReferencedSource=1450, Description=None, Sort=None
+    Row 2: Location=http://www.csiorg.net/uniformat, Identification=E2020200, Name=Furniture & Accessories, ReferencedSource=1450, Description=None, Sort=None
+    Row 3: Location=http://www.csiorg.net/uniformat, Identification=E2020200, Name=Furniture & Accessories, ReferencedSource=1450, Description=None, Sort=None
+
+------
+
+IfcClosedShell (has 108 records):
+  CfsFaces: JSON
+
+  Sample rows (3):
+    Row 1: CfsFaces=[768, 774, 779, 784, 789, 794, 799, 804, 809, 814, 819, 824, 829, 834, 839, 844, 849, 854, 859, 864, 869, 874, 879, 884, 889, 894, 899, 904, 909, 914, 919, 924, 929, 934, 939, 944, 949, 954, 959, 964, 969, 974, 979, 984, 989, 994, 999, 1004, 1009, 1014, 1019, 1024, 1029, 1034, 1039, 1044, 1049, 1054, 1059, 1064, 1069, 1074, 1079, 1084, 1089, 1094, 1099, 1104, 1109, 1114, 1119, 1124, 1129, 1134, 1139, 1144, 1149, 1154, 1159, 1164, 1169, 1174, 1179, 1184, 1189, 1194, 1199, 1204, 1209]
+    Row 2: CfsFaces=[1558, 1563, 1568, 1573, 1578, 1583, 1588, 1593, 1598, 1603, 1608, 1613, 1618, 1623, 1628, 1633, 1638, 1643, 1648, 1653, 1658, 1663, 1668, 1673, 1678, 1683, 1688, 1693, 1698, 1703, 1708, 1713, 1718, 1723, 1728, 1733, 1738]
+    Row 3: CfsFaces=[1923, 1928, 1933, 1938, 1943, 1948, 1953, 1958, 1963, 1968, 1973, 1978, 1983, 1988, 1993, 1998, 2003, 2008, 2013, 2018, 2023, 2028, 2033, 2038, 2043, 2048, 2053, 2058, 2063, 2068, 2073, 2078, 2083, 2088, 2093, 2098, 2103, 2108, 2113, 2118, 2123, 2128, 2133, 2138, 2143, 2148, 2153, 2158, 2163, 2168, 2173, 2178, 2183, 2188, 2193, 2198, 2203, 2208, 2213, 2218, 2223, 2228, 2233, 2238, 2243, 2248, 2253, 2258, 2263, 2268, 2273, 2278, 2283, 2288, 2293, 2298, 2303, 2308, 2313]
+
+------
+
+IfcColourRgb (has 32 records):
+  Name: TEXT
+  Red: REAL
+  Green: REAL
+  Blue: REAL
+
+  Sample rows (3):
+    Row 1: Name=None, Red=0.666666666666667, Green=0.392156862745098, Blue=0.411764705882353
+    Row 2: Name=None, Red=0.498039215686275, Green=0.498039215686275, Blue=0.498039215686275
+    Row 3: Name=None, Red=0.709803921568627, Green=0.709803921568627, Blue=0.709803921568627
+
+------
+
+IfcCompositeCurve (has 12 records):
+  Segments: JSON
+  SelfIntersect: TEXT
+
+  Sample rows (3):
+    Row 1: Segments=[2385, 2396, 2403, 2410], SelfIntersect=0
+    Row 2: Segments=[2565, 2575, 2582, 2589], SelfIntersect=0
+    Row 3: Segments=[2667, 2674, 2684, 2691], SelfIntersect=0
+
+------
+
+IfcCompositeCurveSegment (has 80 records):
+  Transition: TEXT
+  SameSense: INTEGER
+  ParentCurve: INTEGER
+
+  Sample rows (3):
+    Row 1: Transition=CONTINUOUS, SameSense=1, ParentCurve=2383
+    Row 2: Transition=CONTINUOUS, SameSense=1, ParentCurve=2393
+    Row 3: Transition=CONTINUOUS, SameSense=1, ParentCurve=2401
+
+------
+
+IfcConversionBasedUnit (has 1 records):
+  Dimensions: INTEGER
+  UnitType: TEXT
+  Name: TEXT
+  ConversionFactor: INTEGER
+
+  Sample rows (3):
+    Row 1: Dimensions=48, UnitType=PLANEANGLEUNIT, Name=DEGREE, ConversionFactor=49
+
+------
+
+IfcCovering (has 3 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  Tag: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvBJVyWfu, OwnerHistory=42, Name=Compound Ceiling:Plain:286319, Description=None, ObjectType=Compound Ceiling:Plain, ObjectPlacement=33652, Representation=33685, Tag=286319, PredefinedType=CEILING
+    Row 2: GlobalId=3cUkl32yn9qRSPvBJVyWfk, OwnerHistory=42, Name=Compound Ceiling:Plain:286329, Description=None, ObjectType=Compound Ceiling:Plain, ObjectPlacement=33796, Representation=33812, Tag=286329, PredefinedType=CEILING
+    Row 3: GlobalId=3cUkl32yn9qRSPvBJVyWgM, OwnerHistory=42, Name=Compound Ceiling:Plain:286337, Description=None, ObjectType=Compound Ceiling:Plain, ObjectPlacement=33862, Representation=33878, Tag=286337, PredefinedType=CEILING
+
+------
+
+IfcCurtainWall (has 2 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  Tag: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvBJVyW_P, OwnerHistory=42, Name=Curtain Wall:Curtain_Wall-Exterior_Glazing:285582, Description=None, ObjectType=Curtain Wall:Curtain_Wall-Exterior_Glazing:29096, ObjectPlacement=2374, Representation=None, Tag=285582, PredefinedType=None
+    Row 2: GlobalId=3cUkl32yn9qRSPvBJVyW$Z, OwnerHistory=42, Name=Curtain Wall:Curtain_Wall-Exterior_Glazing:285684, Description=None, ObjectType=Curtain Wall:Curtain_Wall-Exterior_Glazing:29096, ObjectPlacement=3817, Representation=None, Tag=285684, PredefinedType=None
+
+------
+
+IfcCurtainWallType (has 1 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ApplicableOccurrence: TEXT
+  HasPropertySets: JSON
+  RepresentationMaps: JSON
+  Tag: TEXT
+  ElementType: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3ViBt$FMv3OQrl3f9P8z5U, OwnerHistory=42, Name=Curtain Wall:Curtain_Wall-Exterior_Glazing, Description=None, ApplicableOccurrence=None, HasPropertySets=[3778, 3782, 3787, 3792, 3796, 3799, 3803], RepresentationMaps=None, Tag=29096, ElementType=None, PredefinedType=NOTDEFINED
+
+------
+
+IfcDerivedUnit (has 5 records):
+  Elements: JSON
+  UnitType: TEXT
+  UserDefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: Elements=[57, 58, 59], UnitType=THERMALTRANSMITTANCEUNIT, UserDefinedType=None
+    Row 2: Elements=[63, 64], UnitType=VOLUMETRICFLOWRATEUNIT, UserDefinedType=None
+    Row 3: Elements=[74, 75, 76, 77], UnitType=USERDEFINED, UserDefinedType=Luminous Efficacy
+
+------
+
+IfcDerivedUnitElement (has 14 records):
+  Unit: INTEGER
+  Exponent: INTEGER
+
+  Sample rows (3):
+    Row 1: Unit=52, Exponent=1
+    Row 2: Unit=55, Exponent=-1
+    Row 3: Unit=53, Exponent=-3
+
+------
+
+IfcDimensionalExponents (has 1 records):
+  LengthExponent: INTEGER
+  MassExponent: INTEGER
+  TimeExponent: INTEGER
+  ElectricCurrentExponent: INTEGER
+  ThermodynamicTemperatureExponent: INTEGER
+  AmountOfSubstanceExponent: INTEGER
+  LuminousIntensityExponent: INTEGER
+
+  Sample rows (3):
+    Row 1: LengthExponent=0, MassExponent=0, TimeExponent=0, ElectricCurrentExponent=0, ThermodynamicTemperatureExponent=0, AmountOfSubstanceExponent=0, LuminousIntensityExponent=0
+
+------
+
+IfcDirection (has 33 records):
+  DirectionRatios: JSON
+
+  Sample rows (3):
+    Row 1: DirectionRatios=[1.0, 0.0, 0.0]
+    Row 2: DirectionRatios=[-1.0, 0.0, 0.0]
+    Row 3: DirectionRatios=[0.0, 1.0, 0.0]
+
+------
+
+IfcDoor (has 3 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  Tag: TEXT
+  OverallHeight: REAL
+  OverallWidth: REAL
+  PredefinedType: TEXT
+  OperationType: TEXT
+  UserDefinedOperationType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvBJVyWYp, OwnerHistory=42, Name=Doors_ExtDbl_Flush:1810x2110mm:285860, Description=None, ObjectType=1810x2110mm, ObjectPlacement=83613, Representation=10986, Tag=285860, OverallHeight=2110.0, OverallWidth=1810.0, PredefinedType=DOOR, OperationType=DOUBLE_DOOR_SINGLE_SWING, UserDefinedOperationType=None
+    Row 2: GlobalId=3cUkl32yn9qRSPvBJVyWaG, OwnerHistory=42, Name=Doors_IntSgl:810x2110mm:285959, Description=None, ObjectType=810x2110mm, ObjectPlacement=83537, Representation=21820, Tag=285959, OverallHeight=2110.0, OverallWidth=809.999999999999, PredefinedType=DOOR, OperationType=SINGLE_SWING_RIGHT, UserDefinedOperationType=None
+    Row 3: GlobalId=3cUkl32yn9qRSPvBJVyWax, OwnerHistory=42, Name=Doors_IntSgl:810x2110mm:285996, Description=None, ObjectType=810x2110mm, ObjectPlacement=83573, Representation=32619, Tag=285996, OverallHeight=2110.0, OverallWidth=809.999999999999, PredefinedType=DOOR, OperationType=SINGLE_SWING_RIGHT, UserDefinedOperationType=None
+
+------
+
+IfcDoorLiningProperties (has 3 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  LiningDepth: REAL
+  LiningThickness: REAL
+  ThresholdDepth: REAL
+  ThresholdThickness: REAL
+  TransomThickness: REAL
+  TransomOffset: REAL
+  LiningOffset: REAL
+  ThresholdOffset: REAL
+  CasingThickness: REAL
+  CasingDepth: REAL
+  ShapeAspectStyle: INTEGER
+  LiningToPanelOffsetX: REAL
+  LiningToPanelOffsetY: REAL
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvBNVyWYp, OwnerHistory=42, Name=Doors_ExtDbl_Flush:1810x2110mm:285860, Description=None, LiningDepth=None, LiningThickness=None, ThresholdDepth=None, ThresholdThickness=None, TransomThickness=None, TransomOffset=None, LiningOffset=None, ThresholdOffset=None, CasingThickness=None, CasingDepth=None, ShapeAspectStyle=None, LiningToPanelOffsetX=None, LiningToPanelOffsetY=None
+    Row 2: GlobalId=3cUkl32yn9qRSPvBNVyWaG, OwnerHistory=42, Name=Doors_IntSgl:810x2110mm:285959, Description=None, LiningDepth=None, LiningThickness=None, ThresholdDepth=None, ThresholdThickness=None, TransomThickness=None, TransomOffset=None, LiningOffset=None, ThresholdOffset=None, CasingThickness=None, CasingDepth=None, ShapeAspectStyle=None, LiningToPanelOffsetX=None, LiningToPanelOffsetY=None
+    Row 3: GlobalId=3cUkl32yn9qRSPvBNVyWax, OwnerHistory=42, Name=Doors_IntSgl:810x2110mm:285996, Description=None, LiningDepth=None, LiningThickness=None, ThresholdDepth=None, ThresholdThickness=None, TransomThickness=None, TransomOffset=None, LiningOffset=None, ThresholdOffset=None, CasingThickness=None, CasingDepth=None, ShapeAspectStyle=None, LiningToPanelOffsetX=None, LiningToPanelOffsetY=None
+
+------
+
+IfcDoorPanelProperties (has 3 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  PanelDepth: REAL
+  PanelOperation: TEXT
+  PanelWidth: REAL
+  PanelPosition: TEXT
+  ShapeAspectStyle: INTEGER
+
+  Sample rows (3):
+    Row 1: GlobalId=2aGBQjzXbDX9cMAA4qhtUG, OwnerHistory=42, Name=Doors_ExtDbl_Flush:1810x2110mm:285860, Description=None, PanelDepth=None, PanelOperation=SWINGING, PanelWidth=None, PanelPosition=NOTDEFINED, ShapeAspectStyle=None
+    Row 2: GlobalId=3ZdEa9BTb1OeEti_mQXty3, OwnerHistory=42, Name=Doors_IntSgl:810x2110mm:285959, Description=None, PanelDepth=None, PanelOperation=SWINGING, PanelWidth=None, PanelPosition=NOTDEFINED, ShapeAspectStyle=None
+    Row 3: GlobalId=3kaZq2xiXC_Alt$Hi8eD8G, OwnerHistory=42, Name=Doors_IntSgl:810x2110mm:285996, Description=None, PanelDepth=None, PanelOperation=SWINGING, PanelWidth=None, PanelPosition=NOTDEFINED, ShapeAspectStyle=None
+
+------
+
+IfcDoorType (has 3 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ApplicableOccurrence: TEXT
+  HasPropertySets: JSON
+  RepresentationMaps: JSON
+  Tag: TEXT
+  ElementType: TEXT
+  PredefinedType: TEXT
+  OperationType: TEXT
+  ParameterTakesPrecedence: INTEGER
+  UserDefinedOperationType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvABVyWZi, OwnerHistory=42, Name=1810x2110mm, Description=None, ApplicableOccurrence=None, HasPropertySets=[10940, 10941, 11100, 11103, 11107, 11112, 11132, 11136, 11142, 11147], RepresentationMaps=[10938], Tag=179379, ElementType=None, PredefinedType=DOOR, OperationType=DOUBLE_DOOR_SINGLE_SWING, ParameterTakesPrecedence=0, UserDefinedOperationType=None
+    Row 2: GlobalId=3cUkl32yn9qRSPvABVyWar, OwnerHistory=42, Name=810x2110mm, Description=None, ApplicableOccurrence=None, HasPropertySets=[21785, 21786, 21935, 21942, 21946, 21948, 21966, 21968, 21976, 21982], RepresentationMaps=[21783], Tag=177724, ElementType=None, PredefinedType=DOOR, OperationType=SINGLE_SWING_RIGHT, ParameterTakesPrecedence=0, UserDefinedOperationType=None
+    Row 3: GlobalId=3cUkl32yn9qRSPvABVyWcU, OwnerHistory=42, Name=810x2110mm, Description=None, ApplicableOccurrence=None, HasPropertySets=[21935, 21942, 21946, 21948, 21966, 21968, 21976, 21982, 32606, 32607], RepresentationMaps=[32604], Tag=177724, ElementType=None, PredefinedType=DOOR, OperationType=SINGLE_SWING_RIGHT, ParameterTakesPrecedence=0, UserDefinedOperationType=None
+
+------
+
+IfcElementQuantity (has 25 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  MethodOfMeasurement: TEXT
+  Quantities: JSON
+
+  Sample rows (3):
+    Row 1: GlobalId=0YFsqt_Oz3SexqX3g$DJVK, OwnerHistory=42, Name=BaseQuantities, Description=, MethodOfMeasurement=None, Quantities=[202, 205, 206, 207, 208]
+    Row 2: GlobalId=0AYsS9j95708bcHpeloUtq, OwnerHistory=42, Name=BaseQuantities, Description=, MethodOfMeasurement=None, Quantities=[334, 335, 336, 337, 338]
+    Row 3: GlobalId=3iNOrPcAn089_$upb0C1Ku, OwnerHistory=42, Name=BaseQuantities, Description=, MethodOfMeasurement=None, Quantities=[432, 433, 434, 435, 436]
+
+------
+
+IfcExtrudedAreaSolid (has 55 records):
+  SweptArea: INTEGER
+  Position: INTEGER
+  ExtrudedDirection: INTEGER
+  Depth: REAL
+
+  Sample rows (3):
+    Row 1: SweptArea=158, Position=163, ExtrudedDirection=20, Depth=2500.0
+    Row 2: SweptArea=313, Position=316, ExtrudedDirection=20, Depth=2500.0
+    Row 3: SweptArea=411, Position=414, ExtrudedDirection=20, Depth=2500.0
+
+------
+
+IfcFace (has 11365 records):
+  Bounds: JSON
+
+  Sample rows (3):
+    Row 1: Bounds=[767]
+    Row 2: Bounds=[773]
+    Row 3: Bounds=[778]
+
+------
+
+IfcFaceBound (has 26 records):
+  Bound: INTEGER
+  Orientation: INTEGER
+
+  Sample rows (3):
+    Row 1: Bound=32787, Orientation=1
+    Row 2: Bound=32824, Orientation=1
+    Row 3: Bound=32850, Orientation=1
+
+------
+
+IfcFaceOuterBound (has 11365 records):
+  Bound: INTEGER
+  Orientation: INTEGER
+
+  Sample rows (3):
+    Row 1: Bound=765, Orientation=1
+    Row 2: Bound=771, Orientation=1
+    Row 3: Bound=776, Orientation=1
+
+------
+
+IfcFacetedBrep (has 108 records):
+  Outer: INTEGER
+
+  Sample rows (3):
+    Row 1: Outer=1211
+    Row 2: Outer=1740
+    Row 3: Outer=2315
+
+------
+
+IfcFurniture (has 14 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  Tag: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvBJVyZVU, OwnerHistory=42, Name=Furniture_Desk:1525x762mm:287689, Description=None, ObjectType=1525x762mm, ObjectPlacement=37552, Representation=37542, Tag=287689, PredefinedType=None
+    Row 2: GlobalId=3cUkl32yn9qRSPvBJVyZ$$, OwnerHistory=42, Name=Furniture_Table_Dining_w-Chairs_Rectangular:2000x1000x750mm_w-6_Seats:289768, Description=None, ObjectType=2000x1000x750mm_w-6_Seats, ObjectPlacement=38395, Representation=38385, Tag=289768, PredefinedType=None
+    Row 3: GlobalId=3cUkl32yn9qRSPvBJVyZ$_, OwnerHistory=42, Name=Chair - Dining:Chair - Dining:289769, Description=None, ObjectType=Chair - Dining, ObjectPlacement=40019, Representation=40009, Tag=289769, PredefinedType=None
+
+------
+
+IfcFurnitureType (has 9 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ApplicableOccurrence: TEXT
+  HasPropertySets: JSON
+  RepresentationMaps: JSON
+  Tag: TEXT
+  ElementType: TEXT
+  AssemblyPlace: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3FQWAR8Pj0rABmjnla4DCw, OwnerHistory=42, Name=1525x762mm, Description=None, ApplicableOccurrence=None, HasPropertySets=[37608, 37612], RepresentationMaps=[37499], Tag=287689, ElementType=1525x762mm, AssemblyPlace=NOTDEFINED, PredefinedType=NOTDEFINED
+    Row 2: GlobalId=3cUkl32yn9qRSPvBJVyZ_j, OwnerHistory=42, Name=2000x1000x750mm_w-6_Seats, Description=None, ApplicableOccurrence=None, HasPropertySets=[38451, 38455, 38464, 38467, 38471, 38476], RepresentationMaps=[38366], Tag=289768, ElementType=2000x1000x750mm_w-6_Seats, AssemblyPlace=NOTDEFINED, PredefinedType=NOTDEFINED
+    Row 3: GlobalId=3cUkl32yn9qRSPvBJVyZ_S, OwnerHistory=42, Name=Chair - Dining, Description=None, ApplicableOccurrence=None, HasPropertySets=[40065, 40069, 40073], RepresentationMaps=[39988], Tag=289769, ElementType=Chair - Dining, AssemblyPlace=NOTDEFINED, PredefinedType=NOTDEFINED
+
+------
+
+IfcHalfSpaceSolid (has 2 records):
+  BaseSurface: INTEGER
+  AgreementFlag: INTEGER
+
+  Sample rows (3):
+    Row 1: BaseSurface=3266, AgreementFlag=0
+    Row 2: BaseSurface=3326, AgreementFlag=0
+
+------
+
+IfcLocalPlacement (has 75 records):
+  PlacementRelTo: INTEGER
+  RelativePlacement: JSON
+
+  Sample rows (3):
+    Row 1: PlacementRelTo=82886, RelativePlacement=32
+    Row 2: PlacementRelTo=33, RelativePlacement=128
+    Row 3: PlacementRelTo=33, RelativePlacement=135
+
+------
+
+IfcMappedItem (has 27 records):
+  MappingSource: INTEGER
+  MappingTarget: INTEGER
+
+  Sample rows (3):
+    Row 1: MappingSource=2436, MappingTarget=2453
+    Row 2: MappingSource=2609, MappingTarget=2453
+    Row 3: MappingSource=2711, MappingTarget=2453
+
+------
+
+IfcMaterial (has 32 records):
+  Name: TEXT
+  Description: TEXT
+  Category: TEXT
+
+  Sample rows (3):
+    Row 1: Name=Brick, Common, Description=None, Category=None
+    Row 2: Name=Fiberglass Batt, Description=None, Category=None
+    Row 3: Name=Concrete Masonry Units _Low Density, Description=None, Category=None
+
+------
+
+IfcMaterialDefinitionRepresentation (has 32 records):
+  Name: TEXT
+  Description: TEXT
+  Representations: JSON
+  RepresentedMaterial: INTEGER
+
+  Sample rows (3):
+    Row 1: Name=None, Description=None, Representations=[1255], RepresentedMaterial=1244
+    Row 2: Name=None, Description=None, Representations=[1271], RepresentedMaterial=1262
+    Row 3: Name=None, Description=None, Representations=[1286], RepresentedMaterial=1277
+
+------
+
+IfcMaterialLayer (has 19 records):
+  Material: INTEGER
+  LayerThickness: REAL
+  IsVentilated: TEXT
+  Name: TEXT
+  Description: TEXT
+  Category: TEXT
+  Priority: INTEGER
+
+  Sample rows (3):
+    Row 1: Material=1292, LayerThickness=12.5, IsVentilated=None, Name=None, Description=None, Category=None, Priority=None
+    Row 2: Material=4720, LayerThickness=70.0, IsVentilated=None, Name=None, Description=None, Category=None, Priority=None
+    Row 3: Material=1292, LayerThickness=12.5, IsVentilated=None, Name=None, Description=None, Category=None, Priority=None
+
+------
+
+IfcMaterialLayerSet (has 5 records):
+  MaterialLayers: JSON
+  LayerSetName: TEXT
+  Description: TEXT
+
+  Sample rows (3):
+    Row 1: MaterialLayers=[4735, 4737, 4738], LayerSetName=Basic Wall:Wall-Partn_12P-70MStd-12P, Description=None
+    Row 2: MaterialLayers=[33704, 33705], LayerSetName=Compound Ceiling:Plain, Description=None
+    Row 3: MaterialLayers=[34055, 34056, 34057, 34058, 34059, 34060, 34061], LayerSetName=Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC, Description=None
+
+------
+
+IfcMaterialLayerSetUsage (has 7 records):
+  ForLayerSet: INTEGER
+  LayerSetDirection: TEXT
+  DirectionSense: TEXT
+  OffsetFromReferenceLine: REAL
+  ReferenceExtent: REAL
+
+  Sample rows (3):
+    Row 1: ForLayerSet=4739, LayerSetDirection=AXIS2, DirectionSense=NEGATIVE, OffsetFromReferenceLine=47.5, ReferenceExtent=None
+    Row 2: ForLayerSet=4739, LayerSetDirection=AXIS2, DirectionSense=NEGATIVE, OffsetFromReferenceLine=47.5, ReferenceExtent=None
+    Row 3: ForLayerSet=33706, LayerSetDirection=AXIS3, DirectionSense=NEGATIVE, OffsetFromReferenceLine=0.0, ReferenceExtent=None
+
+------
+
+IfcMaterialList (has 31 records):
+  Materials: JSON
+
+  Sample rows (3):
+    Row 1: Materials=[1244, 1262, 1277, 1292]
+    Row 2: Materials=[1244, 1262, 1277, 1292]
+    Row 3: Materials=[1244, 1262, 1277, 1292]
+
+------
+
+IfcMeasureWithUnit (has 1 records):
+  ValueComponent: JSON
+  UnitComponent: JSON
+
+  Sample rows (3):
+    Row 1: ValueComponent={"type": "IfcRatioMeasure", "value": 0.0174532925199433}, UnitComponent=47
+
+------
+
+IfcMember (has 20 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  Tag: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=09J5N7xMHBfQZeQGAEMomB, OwnerHistory=42, Name=Curtain Wall:Curtain_Wall-Exterior_Glazing:8490, Description=None, ObjectType=Curtain Wall:Curtain_Wall-Exterior_Glazing:8490, ObjectPlacement=2762, Representation=2823, Tag=294181, PredefinedType=MULLION
+    Row 2: GlobalId=09J5N7xMHBfQZeQGAEMom8, OwnerHistory=42, Name=Curtain Wall:Curtain_Wall-Exterior_Glazing:8490, Description=None, ObjectType=Curtain Wall:Curtain_Wall-Exterior_Glazing:8490, ObjectPlacement=2914, Representation=2969, Tag=294182, PredefinedType=MULLION
+    Row 3: GlobalId=09J5N7xMHBfQZeQGAEMom9, OwnerHistory=42, Name=Curtain Wall:Curtain_Wall-Exterior_Glazing:8490, Description=None, ObjectType=Curtain Wall:Curtain_Wall-Exterior_Glazing:8490, ObjectPlacement=3005, Representation=3060, Tag=294183, PredefinedType=MULLION
+
+------
+
+IfcOpeningElement (has 7 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  Tag: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvAVVyWaG, OwnerHistory=42, Name=Doors_IntSgl:810x2110mm:285959:1, Description=None, ObjectType=Opening, ObjectPlacement=83514, Representation=83508, Tag=None, PredefinedType=OPENING
+    Row 2: GlobalId=3cUkl32yn9qRSPvAVVyWax, OwnerHistory=42, Name=Doors_IntSgl:810x2110mm:285996:1, Description=None, ObjectType=Opening, ObjectPlacement=83554, Representation=83548, Tag=None, PredefinedType=OPENING
+    Row 3: GlobalId=3cUkl32yn9qRSPvAVVyWYp, OwnerHistory=42, Name=Doors_ExtDbl_Flush:1810x2110mm:285860:1, Description=None, ObjectType=Opening, ObjectPlacement=83590, Representation=83584, Tag=None, PredefinedType=OPENING
+
+------
+
+IfcOrganization (has 2 records):
+  Identification: TEXT
+  Name: TEXT
+  Description: TEXT
+  Roles: JSON
+  Addresses: JSON
+
+  Sample rows (3):
+    Row 1: Identification=None, Name=Autodesk Revit 2015 (ENU), Description=None, Roles=None, Addresses=None
+    Row 2: Identification=None, Name=, Description=, Roles=None, Addresses=None
+
+------
+
+IfcOwnerHistory (has 1 records):
+  OwningUser: INTEGER
+  OwningApplication: INTEGER
+  State: TEXT
+  ChangeAction: TEXT
+  LastModifiedDate: INTEGER
+  LastModifyingUser: INTEGER
+  LastModifyingApplication: INTEGER
+  CreationDate: INTEGER
+
+  Sample rows (3):
+    Row 1: OwningUser=39, OwningApplication=5, State=None, ChangeAction=NOCHANGE, LastModifiedDate=None, LastModifyingUser=None, LastModifyingApplication=None, CreationDate=1418982422
+
+------
+
+IfcPerson (has 1 records):
+  Identification: TEXT
+  FamilyName: TEXT
+  GivenName: TEXT
+  MiddleNames: JSON
+  PrefixTitles: JSON
+  SuffixTitles: JSON
+  Roles: JSON
+  Addresses: JSON
+
+  Sample rows (3):
+    Row 1: Identification=None, FamilyName=, GivenName=mxfm2, MiddleNames=None, PrefixTitles=None, SuffixTitles=None, Roles=None, Addresses=None
+
+------
+
+IfcPersonAndOrganization (has 1 records):
+  ThePerson: INTEGER
+  TheOrganization: INTEGER
+  Roles: JSON
+
+  Sample rows (3):
+    Row 1: ThePerson=36, TheOrganization=38, Roles=None
+
+------
+
+IfcPlane (has 4 records):
+  Position: INTEGER
+
+  Sample rows (3):
+    Row 1: Position=3265
+    Row 2: Position=3325
+    Row 3: Position=4687
+
+------
+
+IfcPlate (has 6 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  Tag: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvBJVyW_O, OwnerHistory=42, Name=System Panel:Glazed:285583, Description=None, ObjectType=Glazed, ObjectPlacement=2468, Representation=2458, Tag=285583, PredefinedType=NOTDEFINED
+    Row 2: GlobalId=3cUkl32yn9qRSPvBJVyW_5, OwnerHistory=42, Name=System Panel:Glazed:285586, Description=None, ObjectType=Glazed, ObjectPlacement=2627, Representation=2617, Tag=285586, PredefinedType=NOTDEFINED
+    Row 3: GlobalId=3cUkl32yn9qRSPvBJVyW_3, OwnerHistory=42, Name=System Panel:Glazed:285588, Description=None, ObjectType=Glazed, ObjectPlacement=2729, Representation=2719, Tag=285588, PredefinedType=NOTDEFINED
+
+------
+
+IfcPlateType (has 4 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ApplicableOccurrence: TEXT
+  HasPropertySets: JSON
+  RepresentationMaps: JSON
+  Tag: TEXT
+  ElementType: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=09J5N7xMHBfQZeQGAEMoxO, OwnerHistory=42, Name=Glazed, Description=None, ApplicableOccurrence=None, HasPropertySets=[2525, 2532, 2535, 2538, 2544, 2547], RepresentationMaps=[2436], Tag=285583, ElementType=Glazed, PredefinedType=CURTAIN_PANEL
+    Row 2: GlobalId=09J5N7xMHBfQZeQGAEMoxP, OwnerHistory=42, Name=Glazed, Description=None, ApplicableOccurrence=None, HasPropertySets=[2525, 2532, 2535, 2538, 2544, 2547], RepresentationMaps=[2609], Tag=285586, ElementType=Glazed, PredefinedType=CURTAIN_PANEL
+    Row 3: GlobalId=09J5N7xMHBfQZeQGAEMoxM, OwnerHistory=42, Name=Glazed, Description=None, ApplicableOccurrence=None, HasPropertySets=[2525, 2532, 2535, 2538, 2544, 2547], RepresentationMaps=[2711], Tag=285588, ElementType=Glazed, PredefinedType=CURTAIN_PANEL
+
+------
+
+IfcPolygonalBoundedHalfSpace (has 2 records):
+  BaseSurface: INTEGER
+  AgreementFlag: INTEGER
+  Position: INTEGER
+  PolygonalBoundary: INTEGER
+
+  Sample rows (3):
+    Row 1: BaseSurface=4688, AgreementFlag=1, Position=4691, PolygonalBoundary=4683
+    Row 2: BaseSurface=4865, AgreementFlag=1, Position=4868, PolygonalBoundary=4860
+
+------
+
+IfcPolyline (has 80 records):
+  Points: JSON
+
+  Sample rows (3):
+    Row 1: Points=[142, 144, 146, 148, 150, 152, 154, 142]
+    Row 2: Points=[507, 509, 511, 513, 515, 517, 507]
+    Row 3: Points=[10, 622]
+
+------
+
+IfcPolyLoop (has 11391 records):
+  Polygon: JSON
+
+  Sample rows (3):
+    Row 1: Polygon=[629, 659, 653]
+    Row 2: Polygon=[659, 629, 661]
+    Row 3: Polygon=[629, 653, 651]
+
+------
+
+IfcPostalAddress (has 1 records):
+  Purpose: TEXT
+  Description: TEXT
+  UserDefinedPurpose: TEXT
+  InternalLocation: TEXT
+  AddressLines: JSON
+  PostalBox: TEXT
+  Town: TEXT
+  Region: TEXT
+  PostalCode: TEXT
+  Country: TEXT
+
+  Sample rows (3):
+    Row 1: Purpose=None, Description=None, UserDefinedPurpose=None, InternalLocation=None, AddressLines=["Enter address here"], PostalBox=None, Town=Westminster, Region=London, PostalCode=, Country=UK
+
+------
+
+IfcPresentationLayerAssignment (has 12 records):
+  Name: TEXT
+  Description: TEXT
+  AssignedItems: JSON
+  Identifier: TEXT
+
+  Sample rows (3):
+    Row 1: Name=A-010-M_ROOM, Description=None, AssignedItems=[165, 318, 416, 526], Identifier=None
+    Row 2: Name=A-200-M_WALL, Description=None, AssignedItems=[83506, 83546, 83582, 83622, 83660, 83696, 83732], Identifier=None
+    Row 3: Name=A-200-M_WALL_EXT, Description=None, AssignedItems=[626, 1223, 1461, 1746, 1806, 2321], Identifier=None
+
+------
+
+IfcPresentationStyleAssignment (has 54 records):
+  Styles: JSON
+
+  Sample rows (3):
+    Row 1: Styles=[1216]
+    Row 2: Styles=[1216]
+    Row 3: Styles=[1265]
+
+------
+
+IfcProductDefinitionShape (has 69 records):
+  Name: TEXT
+  Description: TEXT
+  Representations: JSON
+
+  Sample rows (3):
+    Row 1: Name=None, Description=None, Representations=[165]
+    Row 2: Name=None, Description=None, Representations=[318]
+    Row 3: Name=None, Description=None, Representations=[416]
+
+------
+
+IfcProject (has 1 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  LongName: TEXT
+  Phase: TEXT
+  RepresentationContexts: JSON
+  UnitsInContext: INTEGER
+
+  Sample rows (3):
+    Row 1: GlobalId=1o0c33arXF9AEePDXPKItb, OwnerHistory=42, Name=Project Number, Description=None, ObjectType=None, LongName=Project Name, Phase=Project Status, RepresentationContexts=[95], UnitsInContext=90
+
+------
+
+IfcPropertySet (has 465 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  HasProperties: JSON
+
+  Sample rows (3):
+    Row 1: GlobalId=1JkF2aGfH7699uBSGTW7Nn, OwnerHistory=42, Name=Pset_SpaceCommon, Description=None, HasProperties=[182, 188]
+    Row 2: GlobalId=3w0zWKm7n8SB1qa8gUzt0U, OwnerHistory=42, Name=Constraints, Description=None, HasProperties=[233, 234, 235, 236]
+    Row 3: GlobalId=3w0zWKm7n8SB1qa9oUzt0U, OwnerHistory=42, Name=Dimensions, Description=None, HasProperties=[238, 239, 240, 241]
+
+------
+
+IfcPropertySingleValue (has 794 records):
+  Name: TEXT
+  Description: TEXT
+  NominalValue: JSON
+  Unit: JSON
+
+  Sample rows (3):
+    Row 1: Name=Reference, Description=None, NominalValue={"type": "IfcIdentifier", "value": "Living room 1 - Living room"}, Unit=None
+    Row 2: Name=IsExternal, Description=None, NominalValue={"type": "IfcBoolean", "value": false}, Unit=None
+    Row 3: Name=Actual Lighting Load, Description=None, NominalValue={"type": "IfcPowerMeasure", "value": 0.0}, Unit=None
+
+------
+
+IfcQuantityArea (has 24 records):
+  Name: TEXT
+  Description: TEXT
+  Unit: INTEGER
+  AreaValue: REAL
+  Formula: TEXT
+
+  Sample rows (3):
+    Row 1: Name=NetFloorArea, Description=area measured in geometry, Unit=None, AreaValue=51.9948250000001, Formula=None
+    Row 2: Name=GrossFloorArea, Description=area measured in geometry, Unit=None, AreaValue=51.9948250000001, Formula=None
+    Row 3: Name=NetFloorArea, Description=area measured in geometry, Unit=None, AreaValue=15.41678125, Formula=None
+
+------
+
+IfcQuantityLength (has 53 records):
+  Name: TEXT
+  Description: TEXT
+  Unit: INTEGER
+  LengthValue: REAL
+  Formula: TEXT
+
+  Sample rows (3):
+    Row 1: Name=Height, Description=length measured in geometry, Unit=None, LengthValue=2500.0, Formula=None
+    Row 2: Name=GrossPerimeter, Description=length measured in geometry, Unit=None, LengthValue=29925.0, Formula=None
+    Row 3: Name=Height, Description=length measured in geometry, Unit=None, LengthValue=2500.0, Formula=None
+
+------
+
+IfcQuantityVolume (has 8 records):
+  Name: TEXT
+  Description: TEXT
+  Unit: INTEGER
+  VolumeValue: REAL
+  Formula: TEXT
+
+  Sample rows (3):
+    Row 1: Name=GrossVolume, Description=volume measured in geometry, Unit=None, VolumeValue=129987.0625, Formula=None
+    Row 2: Name=GrossVolume, Description=volume measured in geometry, Unit=None, VolumeValue=38541.9531250001, Formula=None
+    Row 3: Name=GrossVolume, Description=volume measured in geometry, Unit=None, VolumeValue=21733.765625, Formula=None
+
+------
+
+IfcRectangleProfileDef (has 35 records):
+  ProfileType: TEXT
+  ProfileName: TEXT
+  Position: INTEGER
+  XDim: REAL
+  YDim: REAL
+
+  Sample rows (3):
+    Row 1: ProfileType=AREA, ProfileName=None, Position=312, XDim=4452.5, YDim=3462.50000000001
+    Row 2: ProfileType=AREA, ProfileName=None, Position=410, XDim=1952.49999999999, YDim=4452.5
+    Row 3: ProfileType=AREA, ProfileName=30mm_Square, Position=3099, XDim=30.0, YDim=29.9999999999997
+
+------
+
+IfcRelAggregates (has 7 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  RelatingObject: INTEGER
+  RelatedObjects: JSON
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPuBJVyW_P, OwnerHistory=42, Name=None, Description=None, RelatingObject=2375, RelatedObjects=[2470, 2628, 2730, 2826, 2972, 3063, 3115, 3167, 3219, 3279, 3339, 3447, 3555]
+    Row 2: GlobalId=3cUkl32yn9qRSPuBJVyW$Z, OwnerHistory=42, Name=None, Description=None, RelatingObject=3818, RelatedObjects=[3858, 3905, 3951, 4005, 4057, 4109, 4161, 4213, 4265, 4317, 4369, 4421, 4473]
+    Row 3: GlobalId=3ccjyPAoj5dB6yvuLFhu$6, OwnerHistory=42, Name=None, Description=None, RelatingObject=103, RelatedObjects=[82887]
+
+------
+
+IfcRelAssociatesClassification (has 7 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  RelatedObjects: JSON
+  RelatingClassification: JSON
+
+  Sample rows (3):
+    Row 1: GlobalId=0LwRkiOTv3ZALfxwc8Cyl_, OwnerHistory=42, Name=Uniformat Classification, Description=, RelatedObjects=[59964], RelatingClassification=59990
+    Row 2: GlobalId=3EBlSxiln7Z9UvWyLjMc2a, OwnerHistory=42, Name=Uniformat Classification, Description=, RelatedObjects=[60014], RelatingClassification=60019
+    Row 3: GlobalId=3yxfeSDh1Du8O6QQT9DVD$, OwnerHistory=42, Name=Uniformat Classification, Description=, RelatedObjects=[77158], RelatingClassification=77162
+
+------
+
+IfcRelAssociatesMaterial (has 44 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  RelatedObjects: JSON
+  RelatingMaterial: JSON
+
+  Sample rows (3):
+    Row 1: GlobalId=0tmdkYSNPFMhGW$yI1pINj, OwnerHistory=42, Name=None, Description=None, RelatedObjects=[4705], RelatingMaterial=4744
+    Row 2: GlobalId=2bRkP5u2H6LO6P4zgDEl9D, OwnerHistory=42, Name=None, Description=None, RelatedObjects=[4746], RelatingMaterial=4739
+    Row 3: GlobalId=31KiV2AEfAExUGUqAlSvba, OwnerHistory=42, Name=None, Description=None, RelatedObjects=[4880], RelatingMaterial=4895
+
+------
+
+IfcRelConnectsPathElements (has 8 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ConnectionGeometry: INTEGER
+  RelatingElement: INTEGER
+  RelatedElement: INTEGER
+  RelatingPriorities: JSON
+  RelatedPriorities: JSON
+  RelatedConnectionType: TEXT
+  RelatingConnectionType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=0Ov6YJf1j66ejWY7MQXxpl, OwnerHistory=42, Name=3cUkl32yn9qRSPvBJVyWw5|3cUkl32yn9qRSPvBJVyWx4, Description=Structural, ConnectionGeometry=None, RelatingElement=1229, RelatedElement=1752, RelatingPriorities=[], RelatedPriorities=[], RelatedConnectionType=ATSTART, RelatingConnectionType=ATEND
+    Row 2: GlobalId=2kps7J2gX9SPfLSnTRMGNb, OwnerHistory=42, Name=3cUkl32yn9qRSPvBJVyWx4|3cUkl32yn9qRSPvBJVyWy4, Description=Structural, ConnectionGeometry=None, RelatingElement=1752, RelatedElement=2327, RelatingPriorities=[], RelatedPriorities=[], RelatedConnectionType=ATSTART, RelatingConnectionType=ATEND
+    Row 3: GlobalId=1mIFMmji9FsfuyIz1zLhDz, OwnerHistory=42, Name=3cUkl32yn9qRSPvBJVyWw5|3cUkl32yn9qRSPvBJVyW_P, Description=Structural, ConnectionGeometry=None, RelatingElement=1229, RelatedElement=2375, RelatingPriorities=[], RelatedPriorities=[], RelatedConnectionType=ATSTART, RelatingConnectionType=ATPATH
+
+------
+
+IfcRelContainedInSpatialStructure (has 4 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  RelatedElements: JSON
+  RelatingStructure: INTEGER
+
+  Sample rows (3):
+    Row 1: GlobalId=3Zu5Bv0LOHrPC10066FoQQ, OwnerHistory=42, Name=None, Description=None, RelatedElements=[1229, 1752, 2327, 2375, 3818, 4705, 4880, 10993, 21827, 32626, 33350, 33515, 33588, 33688, 33815, 33881, 33951, 36107], RelatingStructure=131
+    Row 2: GlobalId=15Z0v90RiHrPC20066FoKR, OwnerHistory=42, Name=None, Description=None, RelatedElements=[35959, 78145], RelatingStructure=137
+    Row 3: GlobalId=1t8TeHn$T9ax6L5EUhBjqj, OwnerHistory=42, Name=None, Description=None, RelatedElements=[38397, 40020, 41597, 41644, 41690, 41736, 41782, 60014, 77186, 77273, 77396, 78054], RelatingStructure=177
+
+------
+
+IfcRelDefinesByProperties (has 414 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  RelatedObjects: JSON
+  RelatingPropertyDefinition: JSON
+
+  Sample rows (3):
+    Row 1: GlobalId=1bmHBnuzj9MAnr4b0suYVn, OwnerHistory=42, Name=None, Description=None, RelatedObjects=[177], RelatingPropertyDefinition=189
+    Row 2: GlobalId=0skxv0SsTAeweIUe$wbZrm, OwnerHistory=42, Name=None, Description=None, RelatedObjects=[177], RelatingPropertyDefinition=209
+    Row 3: GlobalId=3w0zWKm7n8SB1qaOgUzt0U, OwnerHistory=42, Name=None, Description=None, RelatedObjects=[177], RelatingPropertyDefinition=246
+
+------
+
+IfcRelDefinesByType (has 20 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  RelatedObjects: JSON
+  RelatingType: INTEGER
+
+  Sample rows (3):
+    Row 1: GlobalId=33fAS3hfj6N8CjSy9j30gP, OwnerHistory=42, Name=None, Description=None, RelatedObjects=[1229, 1752, 2327], RelatingType=1309
+    Row 2: GlobalId=243DJ0MO50DhpLW2AMdzTG, OwnerHistory=42, Name=None, Description=None, RelatedObjects=[2470], RelatingType=2440
+    Row 3: GlobalId=2kjn1shiTDxA3WDN56uVdC, OwnerHistory=42, Name=None, Description=None, RelatedObjects=[2628], RelatingType=2611
+
+------
+
+IfcRelFillsElement (has 7 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  RelatingOpeningElement: INTEGER
+  RelatedBuildingElement: INTEGER
+
+  Sample rows (3):
+    Row 1: GlobalId=2gYEFhHj5A5O4yQTE9zWIA, OwnerHistory=42, Name=None, Description=None, RelatingOpeningElement=83516, RelatedBuildingElement=21827
+    Row 2: GlobalId=2N_ps$VlP5th189WExcfF2, OwnerHistory=42, Name=None, Description=None, RelatingOpeningElement=83555, RelatedBuildingElement=32626
+    Row 3: GlobalId=1Wtywn9bT10PTdZHYTvo0S, OwnerHistory=42, Name=None, Description=None, RelatingOpeningElement=83592, RelatedBuildingElement=10993
+
+------
+
+IfcRelVoidsElement (has 7 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  RelatingBuildingElement: INTEGER
+  RelatedOpeningElement: INTEGER
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvA3VyWaG, OwnerHistory=42, Name=None, Description=None, RelatingBuildingElement=4705, RelatedOpeningElement=83516
+    Row 2: GlobalId=3cUkl32yn9qRSPvA3VyWax, OwnerHistory=42, Name=None, Description=None, RelatingBuildingElement=4705, RelatedOpeningElement=83555
+    Row 3: GlobalId=3cUkl32yn9qRSPvA3VyWYp, OwnerHistory=42, Name=None, Description=None, RelatingBuildingElement=2327, RelatedOpeningElement=83592
+
+------
+
+IfcRepresentationMap (has 17 records):
+  MappingOrigin: JSON
+  MappedRepresentation: INTEGER
+
+  Sample rows (3):
+    Row 1: MappingOrigin=2435, MappedRepresentation=2431
+    Row 2: MappingOrigin=2608, MappedRepresentation=2604
+    Row 3: MappingOrigin=2710, MappedRepresentation=2706
+
+------
+
+IfcRoof (has 1 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  Tag: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvBJVyWh4, OwnerHistory=42, Name=Basic Roof:Roof_Flat-4Felt-150Ins-50Scr-150Conc-12Plr:286419, Description=None, ObjectType=Basic Roof:Roof_Flat-4Felt-150Ins-50Scr-150Conc-12Plr:45441, ObjectPlacement=34171, Representation=35956, Tag=286419, PredefinedType=NOTDEFINED
+
+------
+
+IfcShapeRepresentation (has 91 records):
+  ContextOfItems: INTEGER
+  RepresentationIdentifier: TEXT
+  RepresentationType: TEXT
+  Items: JSON
+
+  Sample rows (3):
+    Row 1: ContextOfItems=100, RepresentationIdentifier=Body, RepresentationType=SweptSolid, Items=[164]
+    Row 2: ContextOfItems=100, RepresentationIdentifier=Body, RepresentationType=SweptSolid, Items=[317]
+    Row 3: ContextOfItems=100, RepresentationIdentifier=Body, RepresentationType=SweptSolid, Items=[415]
+
+------
+
+IfcSite (has 1 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  LongName: TEXT
+  CompositionType: TEXT
+  RefLatitude: JSON
+  RefLongitude: JSON
+  RefElevation: REAL
+  LandTitleNumber: TEXT
+  SiteAddress: INTEGER
+
+  Sample rows (3):
+    Row 1: GlobalId=1o0c33arXF9AEePDXPKItd, OwnerHistory=42, Name=Default, Description=None, ObjectType=, ObjectPlacement=82886, Representation=None, LongName=None, CompositionType=ELEMENT, RefLatitude=[51, 30, 0, 549316], RefLongitude=[0, -7, -34, -450321], RefElevation=0.0, LandTitleNumber=None, SiteAddress=None
+
+------
+
+IfcSIUnit (has 19 records):
+  Dimensions: INTEGER
+  UnitType: TEXT
+  Prefix: TEXT
+  Name: TEXT
+
+  Sample rows (3):
+    Row 1: Dimensions=None, UnitType=LENGTHUNIT, Prefix=MILLI, Name=METRE
+    Row 2: Dimensions=None, UnitType=LENGTHUNIT, Prefix=None, Name=METRE
+    Row 3: Dimensions=None, UnitType=AREAUNIT, Prefix=None, Name=SQUARE_METRE
+
+------
+
+IfcSlab (has 2 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  Tag: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvBJVyWgQ, OwnerHistory=42, Name=Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC:286349, Description=None, ObjectType=Floor:Floor-Grnd-Susp_65Scr-80Ins-100Blk-75PC, ObjectPlacement=33928, Representation=33948, Tag=286349, PredefinedType=FLOOR
+    Row 2: GlobalId=3ntFzSulnDNeQ4nJrMgcOt, OwnerHistory=42, Name=Floor:Simple floor:295048, Description=None, ObjectType=Floor:Simple floor, ObjectPlacement=78115, Representation=78142, Tag=295048, PredefinedType=FLOOR
+
+------
+
+IfcSpace (has 4 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  LongName: TEXT
+  CompositionType: TEXT
+  PredefinedType: TEXT
+  ElevationWithFlooring: REAL
+
+  Sample rows (3):
+    Row 1: GlobalId=3w0zWKm7n8SB1qbfwUzt0U, OwnerHistory=42, Name=1 - Living room, Description=None, ObjectType=None, ObjectPlacement=140, Representation=172, LongName=Living room, CompositionType=ELEMENT, PredefinedType=SPACE, ElevationWithFlooring=None
+    Row 2: GlobalId=3w0zWKm7n8SB1qbfwUzt0J, OwnerHistory=42, Name=2 - Bedroom, Description=None, ObjectType=None, ObjectPlacement=309, Representation=320, LongName=Bedroom, CompositionType=ELEMENT, PredefinedType=SPACE, ElevationWithFlooring=None
+    Row 3: GlobalId=3w0zWKm7n8SB1qbfwUzt0G, OwnerHistory=42, Name=3 - Entrance hall, Description=None, ObjectType=None, ObjectPlacement=407, Representation=418, LongName=Entrance hall, CompositionType=ELEMENT, PredefinedType=SPACE, ElevationWithFlooring=None
+
+------
+
+IfcStyledItem (has 199 records):
+  Item: INTEGER
+  Styles: JSON
+  Name: TEXT
+
+  Sample rows (3):
+    Row 1: Item=1213, Styles=[1218], Name=None
+    Row 2: Item=None, Styles=[1251], Name=None
+    Row 3: Item=None, Styles=[1267], Name=None
+
+------
+
+IfcStyledRepresentation (has 32 records):
+  ContextOfItems: INTEGER
+  RepresentationIdentifier: TEXT
+  RepresentationType: TEXT
+  Items: JSON
+
+  Sample rows (3):
+    Row 1: ContextOfItems=95, RepresentationIdentifier=Style, RepresentationType=Material, Items=[1253]
+    Row 2: ContextOfItems=95, RepresentationIdentifier=Style, RepresentationType=Material, Items=[1269]
+    Row 3: ContextOfItems=95, RepresentationIdentifier=Style, RepresentationType=Material, Items=[1284]
+
+------
+
+IfcSurfaceStyle (has 32 records):
+  Name: TEXT
+  Side: TEXT
+  Styles: JSON
+
+  Sample rows (3):
+    Row 1: Name=Brick, Common, Side=BOTH, Styles=[1215]
+    Row 2: Name=Fiberglass Batt, Side=BOTH, Styles=[1264]
+    Row 3: Name=Concrete Masonry Units _Low Density, Side=BOTH, Styles=[1279]
+
+------
+
+IfcSurfaceStyleRendering (has 32 records):
+  SurfaceColour: INTEGER
+  Transparency: REAL
+  DiffuseColour: JSON
+  TransmissionColour: JSON
+  DiffuseTransmissionColour: JSON
+  ReflectionColour: JSON
+  SpecularColour: JSON
+  SpecularHighlight: JSON
+  ReflectanceMethod: TEXT
+
+  Sample rows (3):
+    Row 1: SurfaceColour=1214, Transparency=0.0, DiffuseColour=None, TransmissionColour=None, DiffuseTransmissionColour=None, ReflectionColour=None, SpecularColour={"type": "IfcNormalisedRatioMeasure", "value": 0.5}, SpecularHighlight={"type": "IfcSpecularExponent", "value": 128.0}, ReflectanceMethod=NOTDEFINED
+    Row 2: SurfaceColour=1263, Transparency=0.0, DiffuseColour=None, TransmissionColour=None, DiffuseTransmissionColour=None, ReflectionColour=None, SpecularColour={"type": "IfcNormalisedRatioMeasure", "value": 0.5}, SpecularHighlight={"type": "IfcSpecularExponent", "value": 64.0}, ReflectanceMethod=NOTDEFINED
+    Row 3: SurfaceColour=1278, Transparency=0.0, DiffuseColour=None, TransmissionColour=None, DiffuseTransmissionColour=None, ReflectionColour=None, SpecularColour={"type": "IfcNormalisedRatioMeasure", "value": 0.5}, SpecularHighlight={"type": "IfcSpecularExponent", "value": 64.0}, ReflectanceMethod=NOTDEFINED
+
+------
+
+IfcTrimmedCurve (has 15 records):
+  BasisCurve: INTEGER
+  Trim1: JSON
+  Trim2: JSON
+  SenseAgreement: INTEGER
+  MasterRepresentation: TEXT
+
+  Sample rows (3):
+    Row 1: BasisCurve=2392, Trim1=[{"type": "IfcParameterValue", "value": 339.754830340512}], Trim2=[{"type": "IfcParameterValue", "value": 0.0}], SenseAgreement=1, MasterRepresentation=PARAMETER
+    Row 2: BasisCurve=2571, Trim1=[{"type": "IfcParameterValue", "value": 341.224288161689}], Trim2=[{"type": "IfcParameterValue", "value": 0.0}], SenseAgreement=1, MasterRepresentation=PARAMETER
+    Row 3: BasisCurve=2680, Trim1=[{"type": "IfcParameterValue", "value": 0.0}], Trim2=[{"type": "IfcParameterValue", "value": 19.5918781906268}], SenseAgreement=1, MasterRepresentation=PARAMETER
+
+------
+
+IfcUnitAssignment (has 1 records):
+  Units: JSON
+
+  Sample rows (3):
+    Row 1: Units=[43, 45, 46, 50, 52, 53, 54, 56, 60, 65, 67, 68, 69, 70, 71, 72, 73, 78, 82, 84, 88]
+
+------
+
+IfcWall (has 3 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  Tag: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvBJVyWw5, OwnerHistory=42, Name=Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:285330, Description=None, ObjectType=Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:45419, ObjectPlacement=621, Representation=1225, Tag=285330, PredefinedType=NOTDEFINED
+    Row 2: GlobalId=3cUkl32yn9qRSPvBJVyWx4, OwnerHistory=42, Name=Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:285395, Description=None, ObjectType=Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:45419, ObjectPlacement=1456, Representation=1748, Tag=285395, PredefinedType=NOTDEFINED
+    Row 3: GlobalId=3cUkl32yn9qRSPvBJVyWy4, OwnerHistory=42, Name=Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:285459, Description=None, ObjectType=Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P:45419, ObjectPlacement=1801, Representation=2323, Tag=285459, PredefinedType=NOTDEFINED
+
+------
+
+IfcWallStandardCase (has 2 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  Tag: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvBJVyWXt, OwnerHistory=42, Name=Basic Wall:Wall-Partn_12P-70MStd-12P:285792, Description=None, ObjectType=Basic Wall:Wall-Partn_12P-70MStd-12P:45397, ObjectPlacement=4660, Representation=4701, Tag=285792, PredefinedType=NOTDEFINED
+    Row 2: GlobalId=3cUkl32yn9qRSPvBJVyWY1, OwnerHistory=42, Name=Basic Wall:Wall-Partn_12P-70MStd-12P:285846, Description=None, ObjectType=Basic Wall:Wall-Partn_12P-70MStd-12P:45397, ObjectPlacement=4841, Representation=4876, Tag=285846, PredefinedType=NOTDEFINED
+
+------
+
+IfcWallType (has 2 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ApplicableOccurrence: TEXT
+  HasPropertySets: JSON
+  RepresentationMaps: JSON
+  Tag: TEXT
+  ElementType: TEXT
+  PredefinedType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=2ru7YPT4T9MuTpOS4FRzxX, OwnerHistory=42, Name=Basic Wall:Wall-Ext_102Bwk-75Ins-100LBlk-12P, Description=None, ApplicableOccurrence=None, HasPropertySets=[1399, 1406, 1412, 1416, 1422, 1425], RepresentationMaps=None, Tag=45419, ElementType=None, PredefinedType=NOTDEFINED
+    Row 2: GlobalId=2ru7YPT4T9MuTpOS4FRzxV, OwnerHistory=42, Name=Basic Wall:Wall-Partn_12P-70MStd-12P, Description=None, ApplicableOccurrence=None, HasPropertySets=[4800, 4806, 4810, 4813, 4816, 4819], RepresentationMaps=None, Tag=45397, ElementType=None, PredefinedType=NOTDEFINED
+
+------
+
+IfcWindow (has 4 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ObjectType: TEXT
+  ObjectPlacement: INTEGER
+  Representation: INTEGER
+  Tag: TEXT
+  OverallHeight: REAL
+  OverallWidth: REAL
+  PredefinedType: TEXT
+  PartitioningType: TEXT
+  UserDefinedPartitioningType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvBJVyWcE, OwnerHistory=42, Name=Windows_Sgl_Plain:1810x1210mm:286105, Description=None, ObjectType=1810x1210mm, ObjectPlacement=83651, Representation=33343, Tag=286105, OverallHeight=1210.0, OverallWidth=1810.0, PredefinedType=WINDOW, PartitioningType=NOTDEFINED, UserDefinedPartitioningType=None
+    Row 2: GlobalId=3cUkl32yn9qRSPvBJVyWdx, OwnerHistory=42, Name=Windows_Sgl_Plain:1810x1210mm:286188, Description=None, ObjectType=1810x1210mm, ObjectPlacement=83687, Representation=33508, Tag=286188, OverallHeight=1210.0, OverallWidth=1810.0, PredefinedType=WINDOW, PartitioningType=NOTDEFINED, UserDefinedPartitioningType=None
+    Row 3: GlobalId=3cUkl32yn9qRSPvBJVyWe9, OwnerHistory=42, Name=Windows_Sgl_Plain:1810x1210mm:286238, Description=None, ObjectType=1810x1210mm, ObjectPlacement=83723, Representation=33581, Tag=286238, OverallHeight=1210.0, OverallWidth=1810.0, PredefinedType=WINDOW, PartitioningType=NOTDEFINED, UserDefinedPartitioningType=None
+
+------
+
+IfcWindowLiningProperties (has 1 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  LiningDepth: REAL
+  LiningThickness: REAL
+  TransomThickness: REAL
+  MullionThickness: REAL
+  FirstTransomOffset: REAL
+  SecondTransomOffset: REAL
+  FirstMullionOffset: REAL
+  SecondMullionOffset: REAL
+  ShapeAspectStyle: INTEGER
+  LiningOffset: REAL
+  LiningToPanelOffsetX: REAL
+  LiningToPanelOffsetY: REAL
+
+  Sample rows (3):
+    Row 1: GlobalId=2YIwE60BLCBQZbE8slzVOB, OwnerHistory=42, Name=Windows_Sgl_Plain:1810x1210mm:286105, Description=None, LiningDepth=None, LiningThickness=None, TransomThickness=None, MullionThickness=None, FirstTransomOffset=None, SecondTransomOffset=None, FirstMullionOffset=None, SecondMullionOffset=None, ShapeAspectStyle=None, LiningOffset=None, LiningToPanelOffsetX=None, LiningToPanelOffsetY=None
+
+------
+
+IfcWindowType (has 1 records):
+  GlobalId: TEXT
+  OwnerHistory: INTEGER
+  Name: TEXT
+  Description: TEXT
+  ApplicableOccurrence: TEXT
+  HasPropertySets: JSON
+  RepresentationMaps: JSON
+  Tag: TEXT
+  ElementType: TEXT
+  PredefinedType: TEXT
+  PartitioningType: TEXT
+  ParameterTakesPrecedence: INTEGER
+  UserDefinedPartitioningType: TEXT
+
+  Sample rows (3):
+    Row 1: GlobalId=3cUkl32yn9qRSPvA7VyWdr, OwnerHistory=42, Name=1810x1210mm, Description=None, ApplicableOccurrence=None, HasPropertySets=[33321, 33454, 33461, 33465, 33480, 33482, 33488, 33493], RepresentationMaps=[33319], Tag=248058, ElementType=None, PredefinedType=WINDOW, PartitioningType=NOTDEFINED, ParameterTakesPrecedence=0, UserDefinedPartitioningType=None
+
+------
