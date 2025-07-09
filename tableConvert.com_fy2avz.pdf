@@ -1,0 +1,1458 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 12427
+>>
+stream
+0.5670000000000001 w
+0 G
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+40. 801.8899999999999864 66.3831653081044095 -32.9999999999999929 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+45. 788.3899999999999864 Td
+(question) Tj
+ET
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+106.3831653081044095 801.8899999999999864 69.4827362243057536 -32.9999999999999929 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+111.3831653081044095 788.3899999999999864 Td
+(Expected) Tj
+ET
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+175.8659015324101631 801.8899999999999864 122.9145653733021106 -32.9999999999999929 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+180.8659015324101631 788.3899999999999864 Td
+(Article) Tj
+ET
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+298.7804669057122737 801.8899999999999864 74.8874300619151398 -32.9999999999999929 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+303.7804669057122737 788.3899999999999864 Td
+(Gemeni) Tj
+ET
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+373.6678969676274278 801.8899999999999864 99.160807303501258 -32.9999999999999929 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+378.6678969676274278 788.3899999999999864 Td
+(Qwen-8B) Tj
+ET
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+472.8287042711286858 801.8899999999999864 82.4512957286823962 -32.9999999999999929 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+477.8287042711286858 788.3899999999999864 Td
+(Mistral-mediu) Tj
+T* (m) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 768.8899999999998727 66.3831653081044095 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 755.3899999999999864 Td
+(How many) Tj
+T* (doors exist) Tj
+T* (in the) Tj
+T* (building?) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+106.3831653081044095 768.8899999999998727 69.4827362243057536 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+111.3831653081044095 755.3899999999999864 Td
+(There are 3) Tj
+T* (doors.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+175.8659015324101631 768.8899999999998727 122.9145653733021106 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+180.8659015324101631 755.3899999999999864 Td
+(There are 3 doors in the) Tj
+T* (building.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+298.7804669057122737 768.8899999999998727 74.8874300619151398 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+303.7804669057122737 755.3899999999999864 Td
+(Based on the) Tj
+T* (latest data,) Tj
+T* (there are **3**) Tj
+T* (doors within) Tj
+T* (the building) Tj
+T* (structure.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+373.6678969676274278 768.8899999999998727 99.160807303501258 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+378.6678969676274278 755.3899999999999864 Td
+(There are 3 doors in) Tj
+T* (the building.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+472.8287042711286858 768.8899999999998727 82.4512957286823962 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+477.8287042711286858 755.3899999999999864 Td
+(The building has) Tj
+T* (3 doors.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 689.8899999999999864 66.3831653081044095 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 676.3899999999999864 Td
+(What is the) Tj
+T* (volume of) Tj
+T* (the roof) Tj
+T* (space?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+106.3831653081044095 689.8899999999999864 69.4827362243057536 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+111.3831653081044095 676.3899999999999864 Td
+(The gross) Tj
+T* (volume of the) Tj
+T* (roof space is) Tj
+T* (76.47 cubic) Tj
+T* (meters) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+175.8659015324101631 689.8899999999999864 122.9145653733021106 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+180.8659015324101631 676.3899999999999864 Td
+(The volume of the roof) Tj
+T* (space is) Tj
+T* (76.46551559765.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+298.7804669057122737 689.8899999999999864 74.8874300619151398 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+303.7804669057122737 676.3899999999999864 Td
+(Based on the) Tj
+T* (current data) Tj
+T* (available in) Tj
+T* (our system,) Tj
+T* (the specific) Tj
+T* (volume for the) Tj
+T* (roof space has) Tj
+T* (not been) Tj
+T* (recorded or) Tj
+T* (calculated.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+373.6678969676274278 689.8899999999999864 99.160807303501258 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+378.6678969676274278 676.3899999999999864 Td
+(The volume of the) Tj
+T* (roof space is 202) Tj
+T* (cubic meters.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+472.8287042711286858 689.8899999999999864 82.4512957286823962 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+477.8287042711286858 676.3899999999999864 Td
+(The volume of) Tj
+T* (the roof space is) Tj
+T* (129987.0625) Tj
+T* (cubic units.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 564.8899999999999864 66.3831653081044095 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 551.3899999999999864 Td
+(How many) Tj
+T* (storey exist) Tj
+T* (in the) Tj
+T* (building?) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+106.3831653081044095 564.8899999999999864 69.4827362243057536 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+111.3831653081044095 551.3899999999999864 Td
+(There are 2) Tj
+T* (storey in the) Tj
+T* (building) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+175.8659015324101631 564.8899999999999864 122.9145653733021106 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+180.8659015324101631 551.3899999999999864 Td
+(The building has 2) Tj
+T* (storeys.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+298.7804669057122737 564.8899999999999864 74.8874300619151398 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+303.7804669057122737 551.3899999999999864 Td
+(Upon) Tj
+T* (reviewing the) Tj
+T* (building's) Tj
+T* (specifications,) Tj
+T* (it is confirmed) Tj
+T* (that the) Tj
+T* (structure) Tj
+T* (consists of) Tj
+T* (**two) Tj
+T* (stories**.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+373.6678969676274278 564.8899999999999864 99.160807303501258 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+378.6678969676274278 551.3899999999999864 Td
+(The building has 2) Tj
+T* (storeys.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+472.8287042711286858 564.8899999999999864 82.4512957286823962 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+477.8287042711286858 551.3899999999999864 Td
+(There are 2) Tj
+T* (storeys in the) Tj
+T* (building.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 439.8899999999999295 66.3831653081044095 -136.5 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 426.3899999999999864 Td
+(What is the) Tj
+T* (gross floor) Tj
+T* (area of the) Tj
+T* (entrance) Tj
+T* (hall?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+106.3831653081044095 439.8899999999999295 69.4827362243057536 -136.5 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+111.3831653081044095 426.3899999999999864 Td
+(The gross) Tj
+T* (floor area of) Tj
+T* (the entrance) Tj
+T* (hall is 8.69) Tj
+T* (square) Tj
+T* (meters.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+175.8659015324101631 439.8899999999999295 122.9145653733021106 -136.5 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+180.8659015324101631 426.3899999999999864 Td
+(The gross floor area of) Tj
+T* (the entrance hall is) Tj
+T* (8.693506249999999.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+298.7804669057122737 439.8899999999999295 74.8874300619151398 -136.5 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+303.7804669057122737 426.3899999999999864 Td
+(Based on the) Tj
+T* (provided data,) Tj
+T* (the gross floor) Tj
+T* (area for the) Tj
+T* (entrance hall) Tj
+T* (is **8.69) Tj
+T* (square) Tj
+T* (meters**.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+373.6678969676274278 439.8899999999999295 99.160807303501258 -136.5 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+378.6678969676274278 426.3899999999999864 Td
+(The query returned) Tj
+T* (all entries from the `) Tj
+T* (IfcElementQuantity`) Tj
+T* (table, but none of) Tj
+T* (them explicitly) Tj
+T* (mention the gross) Tj
+T* (floor area for the) Tj
+T* (entrance hall.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+472.8287042711286858 439.8899999999999295 82.4512957286823962 -136.5 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+477.8287042711286858 426.3899999999999864 Td
+(The gross floor) Tj
+T* (area of the) Tj
+T* (entrance hall is) Tj
+T* (not explicitly) Tj
+T* (listed in the) Tj
+T* (results.) Tj
+T* (However, based) Tj
+T* (on the data, the) Tj
+T* (most likely value) Tj
+T* (is 15.41678125) Tj
+T* (square units.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 303.3899999999999295 66.3831653081044095 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 289.8899999999999864 Td
+(What is the) Tj
+T* (illuminance) Tj
+T* (unit defined) Tj
+T* (in the file?) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+106.3831653081044095 303.3899999999999295 69.4827362243057536 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+111.3831653081044095 289.8899999999999864 Td
+(The) Tj
+T* (illuminance) Tj
+T* (unit defined) Tj
+T* (in the file is) Tj
+T* (Lux.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+175.8659015324101631 303.3899999999999295 122.9145653733021106 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+180.8659015324101631 289.8899999999999864 Td
+(The illuminance unit) Tj
+T* (defined in the file is LUX.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+298.7804669057122737 303.3899999999999295 74.8874300619151398 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+303.7804669057122737 289.8899999999999864 Td
+(Based on the) Tj
+T* (data, the) Tj
+T* (illuminance) Tj
+T* (unit defined in) Tj
+T* (the file is) Tj
+T* (**Lux \(lx\)**.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+373.6678969676274278 303.3899999999999295 99.160807303501258 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+378.6678969676274278 289.8899999999999864 Td
+(The illuminance unit) Tj
+T* (defined in the file is) Tj
+T* (LUX.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+472.8287042711286858 303.3899999999999295 82.4512957286823962 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+477.8287042711286858 289.8899999999999864 Td
+(The illuminance) Tj
+T* (unit defined in) Tj
+T* (the file is 'LUX'.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 224.3899999999999295 66.3831653081044095 -102. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 210.8899999999999864 Td
+(Is there a) Tj
+T* (Laundry in) Tj
+T* (the building?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+106.3831653081044095 224.3899999999999295 69.4827362243057536 -102. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+111.3831653081044095 210.8899999999999864 Td
+(No there isn't) Tj
+T* (any Laundry) Tj
+T* (space in the) Tj
+T* (building.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+175.8659015324101631 224.3899999999999295 122.9145653733021106 -102. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+180.8659015324101631 210.8899999999999864 Td
+(There is no Laundry in) Tj
+T* (the building.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+298.7804669057122737 224.3899999999999295 74.8874300619151398 -102. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+303.7804669057122737 210.8899999999999864 Td
+(Based on the) Tj
+T* (available) Tj
+T* (building data,) Tj
+T* (there is no) Tj
+T* (dedicated) Tj
+T* (laundry facility) Tj
+T* (within the) Tj
+T* (structure.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+373.6678969676274278 224.3899999999999295 99.160807303501258 -102. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+378.6678969676274278 210.8899999999999864 Td
+(There is no Laundry) Tj
+T* (in the building) Tj
+T* (based on the) Tj
+T* (available data.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+472.8287042711286858 224.3899999999999295 82.4512957286823962 -102. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+477.8287042711286858 210.8899999999999864 Td
+(Yes, there is a) Tj
+T* (laundry sink in) Tj
+T* (the building.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 122.3899999999999579 66.3831653081044095 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 108.8899999999998727 Td
+(What is the) Tj
+T* (perimeter of) Tj
+T* (the entrance) Tj
+T* (hall?) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+106.3831653081044095 122.3899999999999579 69.4827362243057536 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+111.3831653081044095 108.8899999999998727 Td
+(The entrance) Tj
+T* (hall has a) Tj
+T* (perimeter of) Tj
+T* (12,810.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+175.8659015324101631 122.3899999999999579 122.9145653733021106 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+180.8659015324101631 108.8899999999998727 Td
+(The perimeter of the) Tj
+T* (entrance hall is 12,810.0.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+298.7804669057122737 122.3899999999999579 74.8874300619151398 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+303.7804669057122737 108.8899999999998727 Td
+(The perimeter) Tj
+T* (of the) Tj
+T* (entrance hall,) Tj
+T* (as indicated) Tj
+T* (by the) Tj
+T* (provided data,) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+373.6678969676274278 122.3899999999999579 99.160807303501258 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+378.6678969676274278 108.8899999999998727 Td
+(The perimeter of the) Tj
+T* (entrance hall cannot) Tj
+T* (be determined from) Tj
+T* (the provided) Tj
+T* (database schema.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+472.8287042711286858 122.3899999999999579 82.4512957286823962 -79. re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+477.8287042711286858 108.8899999999998727 Td
+(The perimeter of) Tj
+T* (the entrance hall) Tj
+T* (is 30 units.) Tj
+ET
+0.78 G
+0. w
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 7365
+>>
+stream
+0. w
+0.78 G
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+40. 801.8899999999999864 66.3831653081044095 -32.9999999999999929 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+45. 788.3899999999999864 Td
+(question) Tj
+ET
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+106.3831653081044095 801.8899999999999864 69.4827362243057536 -32.9999999999999929 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+111.3831653081044095 788.3899999999999864 Td
+(Expected) Tj
+ET
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+175.8659015324101631 801.8899999999999864 122.9145653733021106 -32.9999999999999929 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+180.8659015324101631 788.3899999999999864 Td
+(Article) Tj
+ET
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+298.7804669057122737 801.8899999999999864 74.8874300619151398 -32.9999999999999929 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+303.7804669057122737 788.3899999999999864 Td
+(Gemeni) Tj
+ET
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+373.6678969676274278 801.8899999999999864 99.160807303501258 -32.9999999999999929 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+378.6678969676274278 788.3899999999999864 Td
+(Qwen-8B) Tj
+ET
+0.16 0.5 0.73 rg
+0.78 G
+0. w
+0.16 0.5 0.73 rg
+472.8287042711286858 801.8899999999999864 82.4512957286823962 -32.9999999999999929 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+1. g
+477.8287042711286858 788.3899999999999864 Td
+(Mistral-mediu) Tj
+T* (m) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 768.8899999999998727 66.3831653081044095 -32.9999999999999929 re
+f
+0.96 g
+0.78 G
+0. w
+0.96 g
+106.3831653081044095 768.8899999999998727 69.4827362243057536 -32.9999999999999929 re
+f
+0.96 g
+0.78 G
+0. w
+0.96 g
+175.8659015324101631 768.8899999999998727 122.9145653733021106 -32.9999999999999929 re
+f
+0.96 g
+0.78 G
+0. w
+0.96 g
+298.7804669057122737 768.8899999999998727 74.8874300619151398 -32.9999999999999929 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+303.7804669057122737 755.3899999999999864 Td
+(is **12,810) Tj
+T* (units**.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+373.6678969676274278 768.8899999999998727 99.160807303501258 -32.9999999999999929 re
+f
+0.96 g
+0.78 G
+0. w
+0.96 g
+472.8287042711286858 768.8899999999998727 82.4512957286823962 -32.9999999999999929 re
+f
+1. g
+0.78 G
+0. w
+1. g
+40. 735.8899999999999864 66.3831653081044095 -113.4999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 722.3899999999999864 Td
+(What is the) Tj
+T* (building) Tj
+T* (address?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+106.3831653081044095 735.8899999999999864 69.4827362243057536 -113.4999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+111.3831653081044095 722.3899999999999864 Td
+(The address) Tj
+T* (is) Tj
+T* ('Westminster,) Tj
+T* (London, UK'.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+175.8659015324101631 735.8899999999999864 122.9145653733021106 -113.4999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+180.8659015324101631 722.3899999999999864 Td
+(Enter address here,) Tj
+T* (Westminster, London,) Tj
+T* (UK.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+298.7804669057122737 735.8899999999999864 74.8874300619151398 -113.4999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+303.7804669057122737 722.3899999999999864 Td
+(Based on the) Tj
+T* (current project) Tj
+T* (data, the) Tj
+T* (building is) Tj
+T* (located in **W) Tj
+T* (estminster,) Tj
+T* (London, UK**.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+373.6678969676274278 735.8899999999999864 99.160807303501258 -113.4999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+378.6678969676274278 722.3899999999999864 Td
+(The building) Tj
+T* (address is located) Tj
+T* (in Westminster,) Tj
+T* (London, UK. The) Tj
+T* (specific street) Tj
+T* (address is listed as) Tj
+T* ("Enter address) Tj
+T* (here" in the postal) Tj
+T* (address details. ) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+472.8287042711286858 735.8899999999999864 82.4512957286823962 -113.4999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+477.8287042711286858 722.3899999999999864 Td
+(The building) Tj
+T* (address is 123) Tj
+T* (Main St,) Tj
+T* (Springfield,) Tj
+T* (Illinois, 62704,) Tj
+T* (USA.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 622.3899999999999864 66.3831653081044095 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 608.8899999999999864 Td
+(What is the) Tj
+T* (unconnected) Tj
+T* (height of the) Tj
+T* (roof space?) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+106.3831653081044095 622.3899999999999864 69.4827362243057536 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+111.3831653081044095 608.8899999999999864 Td
+(The roof has) Tj
+T* (an) Tj
+T* (unconnected) Tj
+T* (height of) Tj
+T* (1000 mm \(1) Tj
+T* (meter\).) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+175.8659015324101631 622.3899999999999864 122.9145653733021106 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+180.8659015324101631 608.8899999999999864 Td
+(The unconnected height) Tj
+T* (of the roof space is) Tj
+T* (IfcLengthMeasure\(0.\) and) Tj
+T* (IfcLengthMeasure\(1000.\).) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+298.7804669057122737 622.3899999999999864 74.8874300619151398 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+303.7804669057122737 608.8899999999999864 Td
+(The) Tj
+T* (unconnected) Tj
+T* (height within) Tj
+T* (the roof space,) Tj
+T* (often referred) Tj
+T* (to as the clear) Tj
+T* (vertical) Tj
+T* (clearance or) Tj
+T* (headroom, is) Tj
+T* (**1000 mm**.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+373.6678969676274278 622.3899999999999864 99.160807303501258 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+378.6678969676274278 608.8899999999999864 Td
+(The unconnected) Tj
+T* (height of the roof) Tj
+T* (space is 2500.0) Tj
+T* (units.) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+472.8287042711286858 622.3899999999999864 82.4512957286823962 -124.9999999999999858 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+477.8287042711286858 608.8899999999999864 Td
+(The) Tj
+T* (unconnected) Tj
+T* (height of the) Tj
+T* (roof space is 0.3) Tj
+T* (units.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+40. 497.3899999999999864 66.3831653081044095 -136.5 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 483.8899999999999864 Td
+(What is the) Tj
+T* (name of the) Tj
+T* (project?) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+106.3831653081044095 497.3899999999999864 69.4827362243057536 -136.5 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+111.3831653081044095 483.8899999999999864 Td
+(The project) Tj
+T* (name is) Tj
+T* ('Project) Tj
+T* (Name'.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+175.8659015324101631 497.3899999999999864 122.9145653733021106 -136.5 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+180.8659015324101631 483.8899999999999864 Td
+(I don't know the answer.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+298.7804669057122737 497.3899999999999864 74.8874300619151398 -136.5 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+303.7804669057122737 483.8899999999999864 Td
+(Based on the) Tj
+T* (current data) Tj
+T* (retrieved, the) Tj
+T* (project is) Tj
+T* (identified as) Tj
+T* (**'Project) Tj
+T* (Name'**.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+373.6678969676274278 497.3899999999999864 99.160807303501258 -136.5 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+378.6678969676274278 483.8899999999999864 Td
+(The project name is) Tj
+T* ("Project Name" as) Tj
+T* (retrieved from the) Tj
+T* (LongName column) Tj
+T* (of the IfcProject) Tj
+T* (table. The Name) Tj
+T* (column contains) Tj
+T* ("Project Number",) Tj
+T* (but LongName) Tj
+T* (provides the full) Tj
+T* (project name.) Tj
+ET
+1. g
+0.78 G
+0. w
+1. g
+472.8287042711286858 497.3899999999999864 82.4512957286823962 -136.5 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+477.8287042711286858 483.8899999999999864 Td
+(The project) Tj
+T* (name is "Project) Tj
+T* (Name" and its) Tj
+T* (number is) Tj
+T* ("Project) Tj
+T* (Number".) Tj
+ET
+0.78 G
+0. w
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R ]
+/Count 2
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+/F4 10 0 R
+/F5 11 0 R
+/F6 12 0 R
+/F7 13 0 R
+/F8 14 0 R
+/F9 15 0 R
+/F10 16 0 R
+/F11 17 0 R
+/F12 18 0 R
+/F13 19 0 R
+/F14 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20250710000711+07'00')
+>>
+endobj
+22 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 23
+0000000000 65535 f 
+0000020186 00000 n 
+0000022011 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000012632 00000 n 
+0000012769 00000 n 
+0000020249 00000 n 
+0000020374 00000 n 
+0000020504 00000 n 
+0000020637 00000 n 
+0000020775 00000 n 
+0000020899 00000 n 
+0000021028 00000 n 
+0000021160 00000 n 
+0000021296 00000 n 
+0000021424 00000 n 
+0000021551 00000 n 
+0000021680 00000 n 
+0000021813 00000 n 
+0000021915 00000 n 
+0000022261 00000 n 
+0000022347 00000 n 
+trailer
+<<
+/Size 23
+/Root 22 0 R
+/Info 21 0 R
+/ID [ <A1FECDB176F0E5B69134879EFD7051C5> <A1FECDB176F0E5B69134879EFD7051C5> ]
+>>
+startxref
+22451
+%%EOF
