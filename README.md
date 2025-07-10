@@ -29,4 +29,6 @@ python main.py \
 
 - db – full or relative path to the target SQLite database file (e.g., data/building_ifc.db).
 
-The results presented in this file: [тык](./tableConvert.com_fy2avz.pdf)
+The report is presented [in this file](./report-28.pdf)
+
+The results is presented in this file: [тык](./tableConvert.com_fy2avz.pdf)
